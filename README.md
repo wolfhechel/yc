@@ -191,7 +191,10 @@ int main(void)
 1. YC3121开发板一套。
 2. PC电脑，串口调试工具。
 3. USB线。
+材料准备图
 ![img_5.png](img_5.png)
+
+
 如下图所示连线
 ![img_3.png](img_3.png)
 
