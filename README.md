@@ -191,9 +191,7 @@ int main(void)
 1. YC3121开发板一套。
 2. PC电脑，串口调试工具。
 3. USB线。
-
-![avatar](https://gitee.com/chenqixiong/yc/raw/master/%E5%9B%BE%E7%89%87/0fb56f709a0255ffafd4990117695bc.jpg)
-
+![img_5.png](img_5.png)
 如下图所示连线
 ![img_3.png](img_3.png)
 
