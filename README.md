@@ -101,8 +101,8 @@ YC3121芯片使用 32bit RISC 内核处理器，集成Bluetooth 5.0 双模蓝牙
 
 
 ### 软件材料
-1. YC3121 SDK
-2. 库接口使用说明手册
+1. [YC3121 SDK](https://gitee.com/chenqixiong/yc/tree/master/SDK)
+2. [库接口使用手册](https://gitee.com/chenqixiong/yc/tree/master/%E5%BA%93%E6%8E%A5%E5%8F%A3%E8%AF%B4%E6%98%8E%E6%89%8B%E5%86%8C)
 
 
 ### 开发工具
@@ -110,6 +110,7 @@ YC3121芯片使用 32bit RISC 内核处理器，集成Bluetooth 5.0 双模蓝牙
 2. 固件下载工具 [链接](https://gitee.com/chenqixiong/yc/tree/master/tool)
 
 ### 模块设计指南
+
 #### ADC接口
 ##### 简介
 ##### 特性
@@ -117,33 +118,54 @@ YC3121芯片使用 32bit RISC 内核处理器，集成Bluetooth 5.0 双模蓝牙
 ##### ADC接口软件控制
 ##### 常见问题及故障排查
 ##### 相关资料以及购买链接
+
 #### BlueTooth接口
+
 #### BT接口
+
 #### DMA接口
+
 #### EXTI接口
+
 #### FLASH接口
+
 #### GPIO接口
+
 #### IIC接口
+
 #### LPM接口
+
 #### OTP接口
+
 #### ROM BOOT接口
+
 #### RTC接口
+
 #### SPI接口
+
 #### SSC接口
+
 #### SYSCTRL接口
+
 #### SYSTICK接口
+
 #### TIMER接口
+
 #### TRNG接口
+
 #### UART接口
+
 #### USB接口
+
 #### WDT接口
+
 #### 电源模块说明
+
 #### PWM拓展使用说明
+
 #### 低功耗测试说明
 
 
-
-2. 库接口使用说明手册
 
 ### 参与贡献
 
