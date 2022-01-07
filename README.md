@@ -89,7 +89,7 @@ YC3121芯片使用 32bit RISC 内核处理器，集成Bluetooth 5.0 双模蓝牙
 1. [YC3121芯片简介1](https://gitee.com/chenqixiong/yc/raw/master/%E8%8A%AF%E7%89%87%E7%AE%80%E4%BB%8B/YC3121_%E8%8A%AF%E7%89%87%E7%AE%80%E4%BB%8Bv2.3.pdf)
 2. [YC3121芯片数据手册](https://gitee.com/chenqixiong/yc/blob/master/%E8%8A%AF%E7%89%87%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C/YC3121_%E8%8A%AF%E7%89%87%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8Cv1.3.pdf)
 3. [holtek](https://www.holtek.com.cn/documents/10179/116706/simHT32F52220_30_Datasheetv140.pdf)
-<embed src="https://gitee.com/chenqixiong/yc/raw/master/%E8%8A%AF%E7%89%87%E7%AE%80%E4%BB%8B/YC3121_%E8%8A%AF%E7%89%87%E7%AE%80%E4%BB%8Bv2.3.pdf" type="application/pdf" width=800 height=800>
+<p><embed src="https://gitee.com/chenqixiong/yc/raw/master/%E8%8A%AF%E7%89%87%E7%AE%80%E4%BB%8B/YC3121_%E8%8A%AF%E7%89%87%E7%AE%80%E4%BB%8Bv2.3.pdf" type="application/pdf" width=800 height=800></p>
 ## 硬件材料
 1. 56pin开发板原理图及PCB
    1. 如何使用56pin开发板，怎么供电？
