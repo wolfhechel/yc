@@ -173,10 +173,13 @@ int main(void)
 
 ```
 #### 常见问题及故障排查
-1. ADC为什么会不准?
-答：
-2. ADC采样时间为什么会很久？
-答：
+1. ADC为什么会不准? 
+
+答：排查步骤1...;排查步骤2...
+
+2. ADC采样时间为什么会很久？ 
+
+答：排查步骤1...;排查步骤2...
 #### 相关资料以及购买链接
 [YC3121_ADC_demo](https://gitee.com/chenqixiong/yc/tree/master/SDK/ModuleDemo/ADC)
 
