@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1775974000</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\core\misc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\core\system.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\core\type.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\startup\flash_start_iar.s</file>
+      <file>$PROJ_DIR$\Debug\Obj\misc.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\core\misc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\core\rom_api.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\system.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\core\yc3121.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\yc3121.hex</file>
+      <file>$PROJ_DIR$\Debug\Exe\c.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\misc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\system.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\..\user\main.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\core\system.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\yc3121.pbd</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\flash_start_iar.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\yc_uart.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_ipc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_gpio.h</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_otp.h</file>
+      <file>$PROJ_DIR$\yc3121.icf</file>
+      <file>$PROJ_DIR$\..\..\user\bt_code.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_lpm.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\yc_gpio.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_sysctrl.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\yc_gpio.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_timer.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\yc_uart.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Librarier\core\misc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8 13 2 25 22 21 30 26 11 20 23 27 18 7 46 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 13 2 25 22 21 30 26 11 20 23 27 18 7 46 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Librarier\core\system.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40 21 30 26 11 20 23 27 25 22 18 7 46 13 2 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 21 30 26 11 20 23 27 25 22 18 7 46 13 2 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34 13 2 25 22 21 30 26 11 20 23 27 18 7 46 10 42 33 47 39 8 37 44</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34 13 2 25 22 21 30 26 11 20 23 27 18 7 46 10 42 33 47 39 8 37 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_uart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46 13 2 25 22 21 30 26 11 20 23 27 18 7 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 13 2 25 22 21 30 26 11 20 23 27 18 7 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Librarier\startup\flash_start_iar.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\c.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 38 31 9 16 17 45 32 35 41 36 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\user\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 13 2 25 22 21 30 26 11 20 23 27 18 7 46 10 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13 2 25 22 21 30 26 11 20 23 27 18 7 46 10 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

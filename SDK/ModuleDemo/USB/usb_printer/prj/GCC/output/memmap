@@ -1,0 +1,584 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memcpy-stub.o)
+                              output/obj/usb.o (memcpy)
+C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memset.o)
+                              output/obj/usb.o (memset)
+C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_thumb1_case_uqi.o)
+                              output/obj/yc_gpio.o (__gnu_thumb1_case_uqi)
+C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+                              output/obj/system.o (__aeabi_uidiv)
+C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_divsi3.o)
+                              output/obj/yc_sysctrl.o (__aeabi_idiv)
+C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
+                              C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+
+Allocating common symbols
+Common symbol       size              file
+
+isstr               0x1               output/obj/usb.o
+mcmd                0x1               output/obj/usb.o
+bufptr              0x4               output/obj/usb.o
+usbbuf              0x41              output/obj/usb.o
+urp                 0x4               output/obj/usb.o
+remain              0x1               output/obj/usb.o
+tc                  0x4               output/obj/usb.o
+clear_fifo          0x1               output/obj/usb.o
+totallen            0x4               output/obj/usb.o
+usbtxbuf            0x80              output/obj/usb.o
+history             0x100             output/obj/usb.o
+rxlen               0x1               output/obj/usb.o
+i                   0x4               output/obj/usb.o
+uartbuf             0x64              output/obj/usb.o
+utxwp               0x4               output/obj/usb.o
+timeout             0x4               output/obj/usb.o
+dataLen             0x4               output/obj/usb.o
+pcnt                0xbb8             output/obj/usb.o
+uwp                 0x4               output/obj/usb.o
+usb0_setup          0x8               output/obj/usb.o
+tptr                0x4               output/obj/usb.o
+chksum              0x4               output/obj/usb.o
+next_urp            0x4               output/obj/usb.o
+pcp                 0x4               output/obj/usb.o
+usbTotallen         0x4               output/obj/usb.o
+len                 0x4               output/obj/usb.o
+utxrp               0x4               output/obj/usb.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x01000000         0x00080000         xr
+RAM              0x00020000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD output/obj/flash_start_gcc.o
+LOAD output/obj/system.o
+LOAD output/obj/misc.o
+LOAD output/obj/yc_gpio.o
+LOAD output/obj/yc_uart.o
+LOAD output/obj/yc_sysctrl.o
+LOAD output/obj/yc_timer.o
+LOAD output/obj/usb.o
+LOAD output/obj/main.o
+LOAD output/obj/bt_code.o
+
+.text           0x01000000     0x2f02
+ *flash_start*.o()
+ .text          0x01000000      0x384 output/obj/flash_start_gcc.o
+                0x01000200                Reset_Handler
+                0x01000204                hard_fault_handler
+                0x0100020a                svc_handler
+                0x01000210                pendsv_handler
+                0x01000216                systick
+                0x0100021c                irq0
+                0x01000220                irq1
+                0x01000224                irq2
+                0x01000228                irq3
+                0x0100022c                irq4
+                0x01000230                irq5
+                0x01000234                irq6
+                0x01000238                irq7
+                0x0100023c                irq8
+                0x01000240                irq9
+                0x01000244                irq10
+                0x01000248                irq11
+                0x0100024c                irq12
+                0x01000250                irq13
+                0x01000254                irq14
+                0x01000258                irq15
+                0x0100025c                irq16
+                0x01000260                irq17
+                0x01000264                irq18
+                0x01000268                irq19
+                0x0100026c                irq20
+                0x01000270                irq21
+                0x01000274                irq22
+                0x01000278                irq23
+                0x0100027c                irq24
+                0x01000280                irq25
+                0x01000284                irq26
+                0x01000288                irq27
+                0x0100028c                irq28
+                0x01000290                irq29
+                0x01000294                irq30
+                0x01000298                irq31
+                0x01000346                delay
+                0x0100034e                TIMER6_IRQHandler
+                0x0100034e                UART0_IRQHandler
+                0x0100034e                TIMER8_IRQHandler
+                0x0100034e                Default_Handler
+                0x0100034e                SEC_IRQHandler
+                0x0100034e                MEMCP_IRQHandler
+                0x0100034e                SCI1_IRQHandler
+                0x0100034e                IIC_IRQHandler
+                0x0100034e                SCI0_IRQHandler
+                0x0100034e                PENDSV_IRQHandler
+                0x0100034e                BT_IRQHandler
+                0x0100034e                WDT_IRQHandler
+                0x0100034e                TIMER5_IRQHandler
+                0x0100034e                UART1_IRQHandler
+                0x0100034e                TIMER1_IRQHandler
+                0x0100034e                SM4_IRQHandler
+                0x0100034e                SYSTICK_IRQHandler
+                0x0100034e                SPI1_IRQHandler
+                0x0100034e                RSA_IRQHandler
+                0x0100034e                MSR_IRQHandler
+                0x0100034e                EXTI1_IRQHandler
+                0x0100034e                TIMER2_IRQHandler
+                0x0100034e                SPI0_IRQHandler
+                0x0100034e                TIMER4_IRQHandler
+                0x0100034e                EXTI0_IRQHandler
+                0x0100034e                TIMER3_IRQHandler
+                0x0100034e                QSPI_IRQHandler
+                0x0100034e                SVC_IRQHandler
+                0x0100034e                EXTI2_IRQHandler
+                0x0100034e                TRNG_IRQHandler
+                0x0100034e                TIMER7_IRQHandler
+                0x0100034e                GPIO_IRQHandler
+                0x0100034e                HARD_FAULT_IRQHandler
+ .data          0x01000384        0x0 output/obj/flash_start_gcc.o
+ .bss           0x01000384        0x0 output/obj/flash_start_gcc.o
+ .ARM.attributes
+                0x01000384       0x21 output/obj/flash_start_gcc.o
+ .iplt          0x010003a5        0x0 output/obj/flash_start_gcc.o
+ .rel.iplt      0x010003a5        0x0 output/obj/flash_start_gcc.o
+ .igot.plt      0x010003a5        0x0 output/obj/flash_start_gcc.o
+ *(.text*)
+ *fill*         0x010003a5        0x3 
+ .text          0x010003a8      0x25c output/obj/system.o
+                0x010003a8                printfsend
+                0x010003c6                MyPrintf
+                0x010005b8                printv
+                0x01000600                _assert_handler
+ .text          0x01000604       0xbc output/obj/misc.o
+                0x01000604                NVIC_SetPriority
+                0x01000658                trigger_PendSV
+                0x0100066c                NVIC_EnableIRQ
+                0x01000680                NVIC_DisableIRQ
+                0x01000690                soft_reset
+                0x010006ac                get_primask
+                0x010006b2                get_msp
+                0x010006b8                set_msp
+ .text          0x010006c0      0x6a8 output/obj/yc_gpio.o
+                0x010006c0                GPIO_Config
+                0x0100077c                GPIO_Init
+                0x01000850                GPIO_PullUpCmd
+                0x01000924                GPIO_ReadInputData
+                0x01000950                GPIO_ReadInputDataBit
+                0x01000a00                GPIO_ReadOutputData
+                0x01000a2c                GPIO_ReadOutputDataBit
+                0x01000adc                GPIO_ResetBits
+                0x01000ba0                GPIO_SetBits
+                0x01000c60                GPIO_StructInit
+                0x01000c6c                GPIO_Write
+                0x01000cb0                GPIO_WriteBit
+ .text          0x01000d68      0x628 output/obj/yc_uart.o
+                0x01000d68                UART_AutoFlowCtrlCmd
+                0x01000dc0                UART_ClearIT
+                0x01000dd4                UART_DeInit
+                0x01000e08                UART_DMASendBuf
+                0x01000e90                UART_GetITIdentity
+                0x01000edc                UART_Init
+                0x01001014                UART_IsRXFIFOFull
+                0x01001048                UART_IsRXFIFONotEmpty
+                0x01001080                UART_IsUARTBusy
+                0x010010b4                UART_ITConfig
+                0x01001140                UART_ReceiveData
+                0x01001174                UART_RecvBuf
+                0x010011dc                UART_SendBuf
+                0x01001288                UART_SendData
+                0x010012f8                UART_SetITTimeout
+                0x01001310                UART_SetRxITNum
+                0x01001350                UART_StructInit
+                0x0100135e                UART_ReceiveDataLen
+ .text          0x01001390      0x160 output/obj/yc_sysctrl.o
+                0x01001390                SYSCTRL_AHBPeriphClockCmd
+                0x010013cc                SYSCTRL_EnterSleep
+                0x010013f0                HCLKConfig_Div_None
+                0x01001410                SYSCTRL_HCLKConfig
+                0x01001470                SYSCTRL_GetClocksFreq
+                0x01001490                SYSCTRL_EnableDpllClk
+ .text          0x010014f0      0x2e4 output/obj/yc_timer.o
+                0x010014f0                delay_us
+                0x010014fc                delay_ms
+                0x01001508                TIM_Init
+                0x01001564                TIM_DeInit
+                0x01001574                TIM_Cmd
+                0x010015d0                TIM_ModeConfig
+                0x0100163c                TIM_SetPeriod
+                0x01001668                TIM_PWMInit
+                0x01001700                TIM_SetPWMPeriod
+                0x01001730                TIM_PWMDifferential
+ .text          0x010017d4      0x714 output/obj/usb.o
+                0x01001894                buflen
+                0x010018b0                txbuflen
+                0x010018cc                usb2buf
+                0x010018fc                usb2txbuf
+                0x01001994                txbufreeelen
+                0x010019b4                USB_IRQHandler
+                0x01001bbc                enable_systick
+                0x01001bd8                usb_main
+                0x01001e00                usb_get_buffer
+                0x01001e50                usb_last_packet
+                0x01001eb8                TIMER_Configuration
+                0x01001ee0                TIMER0_IRQHandler
+ .text          0x01001ee8       0x58 output/obj/main.o
+                0x01001ee8                UART_Configuration
+                0x01001f16                UART_SendData_test
+ .text.startup  0x01001f40       0x20 output/obj/main.o
+                0x01001f40                main
+ .text          0x01001f60        0x0 output/obj/bt_code.o
+ .text          0x01001f60        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memcpy-stub.o)
+ .text.memcpy   0x01001f60       0x88 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memcpy-stub.o)
+                0x01001f60                memcpy
+ .text          0x01001fe8        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memset.o)
+ .text.memset   0x01001fe8       0x9c C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memset.o)
+                0x01001fe8                memset
+ .text          0x01002084       0x14 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_thumb1_case_uqi.o)
+                0x01002084                __gnu_thumb1_case_uqi
+ .text          0x01002098      0x114 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+                0x01002098                __aeabi_uidiv
+                0x01002098                __udivsi3
+                0x010021a4                __aeabi_uidivmod
+ .text          0x010021ac      0x1d4 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_divsi3.o)
+                0x010021ac                __divsi3
+                0x010021ac                __aeabi_idiv
+                0x01002378                __aeabi_idivmod
+ .text          0x01002380        0x4 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
+                0x01002380                __aeabi_idiv0
+                0x01002380                __aeabi_ldiv0
+ *(.init)
+ *(.fini)
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata.str1.1
+                0x01002384       0x3d output/obj/system.o
+                                 0x3f (size before relaxing)
+ *fill*         0x010023c1        0x3 
+ .rodata        0x010023c4        0x8 output/obj/system.o
+ .rodata.str1.1
+                0x010023cc       0x27 output/obj/yc_gpio.o
+ .rodata        0x010023f3       0xae output/obj/yc_gpio.o
+ .rodata.str1.1
+                0x010024a1       0x27 output/obj/yc_uart.o
+ .rodata        0x010024c8       0xd0 output/obj/yc_uart.o
+ .rodata.str1.1
+                0x01002598       0x2a output/obj/yc_sysctrl.o
+ .rodata        0x010025c2       0x40 output/obj/yc_sysctrl.o
+ .rodata.str1.1
+                0x01002602       0x28 output/obj/yc_timer.o
+ .rodata        0x0100262a       0x5f output/obj/yc_timer.o
+ *fill*         0x01002689        0x3 
+ .rodata        0x0100268c       0x7f output/obj/usb.o
+                0x0100268c                devicedesc
+                0x0100269e                confdesc
+                0x010026be                string0
+                0x010026c3                string1
+                0x010026ca                string2
+                0x010026de                string3
+                0x010026ec                string
+                0x010026fc                id
+                0x01002707                strlength
+ .rodata.str1.1
+                0x0100270b       0xb1 output/obj/usb.o
+ .rodata.str1.1
+                0x010027bc       0x29 output/obj/main.o
+                                 0x2c (size before relaxing)
+ .rodata        0x010027e5      0x71d output/obj/bt_code.o
+                0x010027e5                bt_code
+ *(.eh_frame*)
+
+.glue_7         0x01002f04        0x0
+ .glue_7        0x01002f04        0x0 linker stubs
+
+.glue_7t        0x01002f04        0x0
+ .glue_7t       0x01002f04        0x0 linker stubs
+
+.vfp11_veneer   0x01002f04        0x0
+ .vfp11_veneer  0x01002f04        0x0 linker stubs
+
+.v4_bx          0x01002f04        0x0
+ .v4_bx         0x01002f04        0x0 linker stubs
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x01002f04                . = ALIGN (0x4)
+                0x01002f04                __exidx_start = .
+                0x01002f04                __etext = .
+
+.data           0x00020000        0x8 load address 0x01002f04
+                0x00020000                __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data          0x00020000        0x0 output/obj/system.o
+ .data          0x00020000        0x0 output/obj/misc.o
+ .data          0x00020000        0x0 output/obj/yc_gpio.o
+ .data          0x00020000        0x0 output/obj/yc_uart.o
+ .data          0x00020000        0x0 output/obj/yc_sysctrl.o
+ .data          0x00020000        0x0 output/obj/yc_timer.o
+ .data          0x00020000        0x8 output/obj/usb.o
+                0x00020000                usb1_send_flag
+                0x00020004                hisptr
+ .data          0x00020008        0x0 output/obj/main.o
+ .data          0x00020008        0x0 output/obj/bt_code.o
+ .data          0x00020008        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memcpy-stub.o)
+ .data          0x00020008        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memset.o)
+ .data          0x00020008        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_thumb1_case_uqi.o)
+ .data          0x00020008        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+ .data          0x00020008        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_divsi3.o)
+ .data          0x00020008        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
+                0x00020008                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                PROVIDE (__preinit_array_end = .)
+                0x00020008                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                [!provide]                PROVIDE (__init_array_end = .)
+                0x00020008                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array)
+                [!provide]                PROVIDE (__fini_array_end = .)
+ *(.jcr*)
+                0x00020008                . = ALIGN (0x4)
+                0x00020008                __data_end__ = .
+
+.bss            0x00020100     0x17e0 load address 0x01003100
+                0x00020100                . = ALIGN (0x4)
+                0x00020100                __bss_start__ = .
+ *(.bss*)
+ .bss           0x00020100        0x0 output/obj/system.o
+ .bss           0x00020100        0x0 output/obj/misc.o
+ .bss           0x00020100        0x0 output/obj/yc_gpio.o
+ .bss           0x00020100      0x800 output/obj/yc_uart.o
+                0x00020100                uart0_DMA_buf
+                0x00020500                uart1_DMA_buf
+ .bss           0x00020900        0x0 output/obj/yc_sysctrl.o
+ .bss           0x00020900        0x0 output/obj/yc_timer.o
+ .bss           0x00020900        0xc output/obj/usb.o
+                0x00020900                totaltxlen
+                0x00020904                totaltxlen_chksum
+                0x00020908                increse
+ .bss           0x0002090c        0x0 output/obj/main.o
+ .bss           0x0002090c        0x0 output/obj/bt_code.o
+ .bss           0x0002090c        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memcpy-stub.o)
+ .bss           0x0002090c        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memset.o)
+ .bss           0x0002090c        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_thumb1_case_uqi.o)
+ .bss           0x0002090c        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+ .bss           0x0002090c        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_divsi3.o)
+ .bss           0x0002090c        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
+ *(COMMON)
+ *fill*         0x0002090c       0xf4 
+ COMMON         0x00020a00      0xee0 output/obj/usb.o
+                0x00020a00                isstr
+                0x00020a01                mcmd
+                0x00020a04                bufptr
+                0x00020a08                usbbuf
+                0x00020a4c                urp
+                0x00020a50                remain
+                0x00020a54                tc
+                0x00020a58                clear_fifo
+                0x00020a5c                totallen
+                0x00020a60                usbtxbuf
+                0x00020b00                history
+                0x00020c00                rxlen
+                0x00020c04                i
+                0x00020c08                uartbuf
+                0x00020c6c                utxwp
+                0x00020c70                timeout
+                0x00020c74                dataLen
+                0x00020d00                pcnt
+                0x000218b8                uwp
+                0x000218bc                usb0_setup
+                0x000218c4                tptr
+                0x000218c8                chksum
+                0x000218cc                next_urp
+                0x000218d0                pcp
+                0x000218d4                usbTotallen
+                0x000218d8                len
+                0x000218dc                utxrp
+                0x000218e0                . = ALIGN (0x4)
+                0x000218e0                __bss_end__ = .
+
+.heap           0x000218e0        0x0
+                0x000218e0                __end__ = .
+                [!provide]                PROVIDE (end = .)
+ *(.heap*)
+                0x000218e0                __HeapLimit = .
+
+.stack_dummy    0x000218e0        0x0
+ *(.stack*)
+                0x00030000                __StackTop = (ORIGIN (RAM) + LENGTH (RAM))
+                0x00030000                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                [!provide]                PROVIDE (__stack = __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
+LOAD C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a
+LOAD C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libm.a
+LOAD C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a
+OUTPUT(output/out elf32-littlearm)
+
+.debug_info     0x00000000     0x7cc1
+ .debug_info    0x00000000      0xc31 output/obj/system.o
+ .debug_info    0x00000c31      0xc72 output/obj/misc.o
+ .debug_info    0x000018a3     0x12a8 output/obj/yc_gpio.o
+ .debug_info    0x00002b4b     0x1364 output/obj/yc_uart.o
+ .debug_info    0x00003eaf      0xba1 output/obj/yc_sysctrl.o
+ .debug_info    0x00004a50      0xee9 output/obj/yc_timer.o
+ .debug_info    0x00005939     0x16d8 output/obj/usb.o
+ .debug_info    0x00007011      0xc58 output/obj/main.o
+ .debug_info    0x00007c69       0x58 output/obj/bt_code.o
+
+.debug_abbrev   0x00000000     0x1827
+ .debug_abbrev  0x00000000      0x29d output/obj/system.o
+ .debug_abbrev  0x0000029d      0x28f output/obj/misc.o
+ .debug_abbrev  0x0000052c      0x27c output/obj/yc_gpio.o
+ .debug_abbrev  0x000007a8      0x34c output/obj/yc_uart.o
+ .debug_abbrev  0x00000af4      0x290 output/obj/yc_sysctrl.o
+ .debug_abbrev  0x00000d84      0x2c9 output/obj/yc_timer.o
+ .debug_abbrev  0x0000104d      0x528 output/obj/usb.o
+ .debug_abbrev  0x00001575      0x26d output/obj/main.o
+ .debug_abbrev  0x000017e2       0x45 output/obj/bt_code.o
+
+.debug_loc      0x00000000     0x178b
+ .debug_loc     0x00000000      0x44c output/obj/system.o
+ .debug_loc     0x0000044c       0x98 output/obj/misc.o
+ .debug_loc     0x000004e4      0x38d output/obj/yc_gpio.o
+ .debug_loc     0x00000871      0x69b output/obj/yc_uart.o
+ .debug_loc     0x00000f0c      0x129 output/obj/yc_sysctrl.o
+ .debug_loc     0x00001035      0x308 output/obj/yc_timer.o
+ .debug_loc     0x0000133d      0x43a output/obj/usb.o
+ .debug_loc     0x00001777       0x14 output/obj/main.o
+
+.debug_aranges  0x00000000      0x120
+ .debug_aranges
+                0x00000000       0x20 output/obj/system.o
+ .debug_aranges
+                0x00000020       0x20 output/obj/misc.o
+ .debug_aranges
+                0x00000040       0x20 output/obj/yc_gpio.o
+ .debug_aranges
+                0x00000060       0x20 output/obj/yc_uart.o
+ .debug_aranges
+                0x00000080       0x20 output/obj/yc_sysctrl.o
+ .debug_aranges
+                0x000000a0       0x20 output/obj/yc_timer.o
+ .debug_aranges
+                0x000000c0       0x20 output/obj/usb.o
+ .debug_aranges
+                0x000000e0       0x28 output/obj/main.o
+ .debug_aranges
+                0x00000108       0x18 output/obj/bt_code.o
+
+.debug_ranges   0x00000000      0x1a0
+ .debug_ranges  0x00000000       0x20 output/obj/system.o
+ .debug_ranges  0x00000020       0x30 output/obj/misc.o
+ .debug_ranges  0x00000050       0x18 output/obj/yc_sysctrl.o
+ .debug_ranges  0x00000068       0x18 output/obj/yc_timer.o
+ .debug_ranges  0x00000080      0x108 output/obj/usb.o
+ .debug_ranges  0x00000188       0x18 output/obj/main.o
+
+.debug_line     0x00000000     0x18a3
+ .debug_line    0x00000000      0x2d5 output/obj/system.o
+ .debug_line    0x000002d5      0x1ed output/obj/misc.o
+ .debug_line    0x000004c2      0x440 output/obj/yc_gpio.o
+ .debug_line    0x00000902      0x3ee output/obj/yc_uart.o
+ .debug_line    0x00000cf0      0x249 output/obj/yc_sysctrl.o
+ .debug_line    0x00000f39      0x2bb output/obj/yc_timer.o
+ .debug_line    0x000011f4      0x46a output/obj/usb.o
+ .debug_line    0x0000165e      0x210 output/obj/main.o
+ .debug_line    0x0000186e       0x35 output/obj/bt_code.o
+
+.debug_str      0x00000000     0x1575
+ .debug_str     0x00000000      0x62b output/obj/system.o
+                                0x6ad (size before relaxing)
+ .debug_str     0x0000062b      0x292 output/obj/misc.o
+                                0x7fb (size before relaxing)
+ .debug_str     0x000008bd      0x42b output/obj/yc_gpio.o
+                                0x9a4 (size before relaxing)
+ .debug_str     0x00000ce8      0x1fa output/obj/yc_uart.o
+                                0x811 (size before relaxing)
+ .debug_str     0x00000ee2      0x155 output/obj/yc_sysctrl.o
+                                0x70d (size before relaxing)
+ .debug_str     0x00001037      0x1da output/obj/yc_timer.o
+                                0x788 (size before relaxing)
+ .debug_str     0x00001211      0x317 output/obj/usb.o
+                                0xb1d (size before relaxing)
+ .debug_str     0x00001528       0x38 output/obj/main.o
+                                0x869 (size before relaxing)
+ .debug_str     0x00001560       0x15 output/obj/bt_code.o
+                                0x10f (size before relaxing)
+
+.comment        0x00000000       0x7f
+ .comment       0x00000000       0x7f output/obj/system.o
+                                 0x80 (size before relaxing)
+ .comment       0x0000007f       0x80 output/obj/misc.o
+ .comment       0x0000007f       0x80 output/obj/yc_gpio.o
+ .comment       0x0000007f       0x80 output/obj/yc_uart.o
+ .comment       0x0000007f       0x80 output/obj/yc_sysctrl.o
+ .comment       0x0000007f       0x80 output/obj/yc_timer.o
+ .comment       0x0000007f       0x80 output/obj/usb.o
+ .comment       0x0000007f       0x80 output/obj/main.o
+ .comment       0x0000007f       0x80 output/obj/bt_code.o
+
+.ARM.attributes
+                0x00000000       0x2d
+ .ARM.attributes
+                0x00000000       0x31 output/obj/system.o
+ .ARM.attributes
+                0x00000031       0x31 output/obj/misc.o
+ .ARM.attributes
+                0x00000062       0x31 output/obj/yc_gpio.o
+ .ARM.attributes
+                0x00000093       0x31 output/obj/yc_uart.o
+ .ARM.attributes
+                0x000000c4       0x31 output/obj/yc_sysctrl.o
+ .ARM.attributes
+                0x000000f5       0x31 output/obj/yc_timer.o
+ .ARM.attributes
+                0x00000126       0x31 output/obj/usb.o
+ .ARM.attributes
+                0x00000157       0x31 output/obj/main.o
+ .ARM.attributes
+                0x00000188       0x31 output/obj/bt_code.o
+ .ARM.attributes
+                0x000001b9       0x2c C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x000001e5       0x2c C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000211       0x1e C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_thumb1_case_uqi.o)
+ .ARM.attributes
+                0x0000022f       0x1e C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000024d       0x1e C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x0000026b       0x1e C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
+
+.debug_frame    0x00000000      0x85c
+ .debug_frame   0x00000000       0x88 output/obj/system.o
+ .debug_frame   0x00000088       0x9c output/obj/misc.o
+ .debug_frame   0x00000124      0x154 output/obj/yc_gpio.o
+ .debug_frame   0x00000278      0x1c0 output/obj/yc_uart.o
+ .debug_frame   0x00000438       0x9c output/obj/yc_sysctrl.o
+ .debug_frame   0x000004d4      0x110 output/obj/yc_timer.o
+ .debug_frame   0x000005e4      0x178 output/obj/usb.o
+ .debug_frame   0x0000075c       0x60 output/obj/main.o
+ .debug_frame   0x000007bc       0x30 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x000007ec       0x30 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memset.o)
+ .debug_frame   0x0000081c       0x20 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000083c       0x20 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_divsi3.o)

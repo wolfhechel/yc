@@ -1,0 +1,1551 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memcpy-stub.o)
+                              output/obj/yc_ipc.o (memcpy)
+C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memset.o)
+                              output/obj/usbd_core.o (memset)
+C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_thumb1_case_uqi.o)
+                              output/obj/yc_gpio.o (__gnu_thumb1_case_uqi)
+C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_thumb1_case_uhi.o)
+                              output/obj/usbd_req.o (__gnu_thumb1_case_uhi)
+C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+                              output/obj/system.o (__aeabi_uidiv)
+C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_divsi3.o)
+                              output/obj/yc_sysctrl.o (__aeabi_idiv)
+C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
+                              C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+
+Allocating common symbols
+Common symbol       size              file
+
+UsbIntMessageBuffer
+                    0x8               output/obj/usbd_ccid_if.o
+usb_ccid_param      0x3               output/obj/usbd_ccid_if.o
+SC_Response         0x1a              output/obj/sc_itf.o
+pUsbMessageBuffer   0x4               output/obj/usbd_ccid_if.o
+SC_ADPU             0x20              output/obj/sc_itf.o
+BulkOut_Data_Buff   0x40              output/obj/usbd_ccid_if.o
+pCcid_resp_buff     0x111             output/obj/usbd_ccid_if.o
+Protocol0_DataStructure
+                    0x5               output/obj/sc_itf.o
+ccid_wait_data_len  0x4               output/obj/usbd_ccid_if.o
+Ccid_out_cmd        0xa96             output/obj/usbd_ccid_cmd.o
+data_len            0x1               output/obj/usb_core.o
+ccid_wait_data_time
+                    0x4               output/obj/usbd_ccid_if.o
+Ccid_bulkout_data   0x10f             output/obj/usbd_ccid_if.o
+PrevXferComplete_IntrIn
+                    0x1               output/obj/usbd_ccid_if.o
+USB_OTG_dev         0x180             output/obj/usb_main.o
+Ccid_resp_buff      0x111             output/obj/usbd_ccid_cmd.o
+Ccid_bulkin_data    0x111             output/obj/usbd_ccid_if.o
+USBD_StrDesc        0x40              output/obj/usbd_req.o
+Ccid_SlotStatus     0x2               output/obj/usbd_ccid_if.o
+Ccid_BulkState      0x1               output/obj/usbd_ccid_if.o
+SC_Param            0xc               output/obj/sc_itf.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x01000000         0x00080000         xr
+RAM              0x00020000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD output/obj/flash_start_gcc.o
+LOAD output/obj/system.o
+LOAD output/obj/misc.o
+LOAD output/obj/bt_code.o
+LOAD output/obj/yc_gpio.o
+LOAD output/obj/yc_timer.o
+LOAD output/obj/yc_ipc.o
+LOAD output/obj/yc_uart.o
+LOAD output/obj/yc_lpm.o
+LOAD output/obj/yc_otp.o
+LOAD output/obj/yc_sysctrl.o
+LOAD output/obj/usb_core.o
+LOAD output/obj/Usb_dcd.o
+LOAD output/obj/Usb_dcd_init.o
+LOAD output/obj/usbd_core.o
+LOAD output/obj/usbd_ioreq.o
+LOAD output/obj/usbd_req.o
+LOAD output/obj/usbd_ccid_cmd.o
+LOAD output/obj/usbd_ccid_core.o
+LOAD output/obj/usbd_ccid_if.o
+LOAD output/obj/usb_main.o
+LOAD output/obj/usbd_desc.o
+LOAD output/obj/usbd_usr.o
+LOAD output/obj/sc_itf.o
+LOAD output/obj/main.o
+
+.text           0x01000000     0x585a
+ *flash_start*.o()
+ .text          0x01000000      0x384 output/obj/flash_start_gcc.o
+                0x01000200                Reset_Handler
+                0x01000204                hard_fault_handler
+                0x0100020a                svc_handler
+                0x01000210                pendsv_handler
+                0x01000216                systick
+                0x0100021c                irq0
+                0x01000220                irq1
+                0x01000224                irq2
+                0x01000228                irq3
+                0x0100022c                irq4
+                0x01000230                irq5
+                0x01000234                irq6
+                0x01000238                irq7
+                0x0100023c                irq8
+                0x01000240                irq9
+                0x01000244                irq10
+                0x01000248                irq11
+                0x0100024c                irq12
+                0x01000250                irq13
+                0x01000254                irq14
+                0x01000258                irq15
+                0x0100025c                irq16
+                0x01000260                irq17
+                0x01000264                irq18
+                0x01000268                irq19
+                0x0100026c                irq20
+                0x01000270                irq21
+                0x01000274                irq22
+                0x01000278                irq23
+                0x0100027c                irq24
+                0x01000280                irq25
+                0x01000284                irq26
+                0x01000288                irq27
+                0x0100028c                irq28
+                0x01000290                irq29
+                0x01000294                irq30
+                0x01000298                irq31
+                0x01000346                delay
+                0x0100034e                TIMER0_IRQHandler
+                0x0100034e                UART0_IRQHandler
+                0x0100034e                TIMER7_IRQHandler
+                0x0100034e                TIMER6_IRQHandler
+                0x0100034e                Default_Handler
+                0x0100034e                TIMER3_IRQHandler
+                0x0100034e                SM4_IRQHandler
+                0x0100034e                TIMER8_IRQHandler
+                0x0100034e                IIC_IRQHandler
+                0x0100034e                SEC_IRQHandler
+                0x0100034e                TIMER1_IRQHandler
+                0x0100034e                SCI0_IRQHandler
+                0x0100034e                WDT_IRQHandler
+                0x0100034e                TIMER5_IRQHandler
+                0x0100034e                BT_IRQHandler
+                0x0100034e                PENDSV_IRQHandler
+                0x0100034e                UART1_IRQHandler
+                0x0100034e                EXTI0_IRQHandler
+                0x0100034e                SYSTICK_IRQHandler
+                0x0100034e                RSA_IRQHandler
+                0x0100034e                MSR_IRQHandler
+                0x0100034e                EXTI1_IRQHandler
+                0x0100034e                TIMER2_IRQHandler
+                0x0100034e                SPI0_IRQHandler
+                0x0100034e                SPI1_IRQHandler
+                0x0100034e                MEMCP_IRQHandler
+                0x0100034e                TIMER4_IRQHandler
+                0x0100034e                QSPI_IRQHandler
+                0x0100034e                SVC_IRQHandler
+                0x0100034e                EXTI2_IRQHandler
+                0x0100034e                TRNG_IRQHandler
+                0x0100034e                SCI1_IRQHandler
+                0x0100034e                GPIO_IRQHandler
+                0x0100034e                HARD_FAULT_IRQHandler
+ .data          0x01000384        0x0 output/obj/flash_start_gcc.o
+ .bss           0x01000384        0x0 output/obj/flash_start_gcc.o
+ .ARM.attributes
+                0x01000384       0x21 output/obj/flash_start_gcc.o
+ .iplt          0x010003a5        0x0 output/obj/flash_start_gcc.o
+ .rel.iplt      0x010003a5        0x0 output/obj/flash_start_gcc.o
+ .igot.plt      0x010003a5        0x0 output/obj/flash_start_gcc.o
+ *(.text*)
+ *fill*         0x010003a5        0x1 
+ .text          0x010003a6        0x0 output/obj/system.o
+ .text.printfsend
+                0x010003a6       0x1e output/obj/system.o
+                0x010003a6                printfsend
+ .text.MyPrintf
+                0x010003c4      0x1f0 output/obj/system.o
+                0x010003c4                MyPrintf
+ .text.printv   0x010005b4       0x48 output/obj/system.o
+                0x010005b4                printv
+ .text._assert_handler
+                0x010005fc        0x2 output/obj/system.o
+                0x010005fc                _assert_handler
+ .text          0x010005fe        0x0 output/obj/misc.o
+ *fill*         0x010005fe        0x2 
+ .text.NVIC_SetPriority
+                0x01000600       0x54 output/obj/misc.o
+                0x01000600                NVIC_SetPriority
+ .text.trigger_PendSV
+                0x01000654       0x14 output/obj/misc.o
+                0x01000654                trigger_PendSV
+ .text.NVIC_EnableIRQ
+                0x01000668       0x14 output/obj/misc.o
+                0x01000668                NVIC_EnableIRQ
+ .text.NVIC_DisableIRQ
+                0x0100067c       0x10 output/obj/misc.o
+                0x0100067c                NVIC_DisableIRQ
+ .text.soft_reset
+                0x0100068c       0x1c output/obj/misc.o
+                0x0100068c                soft_reset
+ .text.get_primask
+                0x010006a8        0x6 output/obj/misc.o
+                0x010006a8                get_primask
+ .text.get_msp  0x010006ae        0x6 output/obj/misc.o
+                0x010006ae                get_msp
+ .text.set_msp  0x010006b4        0x6 output/obj/misc.o
+                0x010006b4                set_msp
+ .text          0x010006ba        0x0 output/obj/bt_code.o
+ .text          0x010006ba        0x0 output/obj/yc_gpio.o
+ *fill*         0x010006ba        0x2 
+ .text.GPIO_Config
+                0x010006bc       0xbc output/obj/yc_gpio.o
+                0x010006bc                GPIO_Config
+ .text.GPIO_Init
+                0x01000778       0xd4 output/obj/yc_gpio.o
+                0x01000778                GPIO_Init
+ .text.GPIO_PullUpCmd
+                0x0100084c       0xd4 output/obj/yc_gpio.o
+                0x0100084c                GPIO_PullUpCmd
+ .text.GPIO_ReadInputData
+                0x01000920       0x2c output/obj/yc_gpio.o
+                0x01000920                GPIO_ReadInputData
+ .text.GPIO_ReadInputDataBit
+                0x0100094c       0xb0 output/obj/yc_gpio.o
+                0x0100094c                GPIO_ReadInputDataBit
+ .text.GPIO_ReadOutputData
+                0x010009fc       0x2c output/obj/yc_gpio.o
+                0x010009fc                GPIO_ReadOutputData
+ .text.GPIO_ReadOutputDataBit
+                0x01000a28       0xb0 output/obj/yc_gpio.o
+                0x01000a28                GPIO_ReadOutputDataBit
+ .text.GPIO_ResetBits
+                0x01000ad8       0xc4 output/obj/yc_gpio.o
+                0x01000ad8                GPIO_ResetBits
+ .text.GPIO_SetBits
+                0x01000b9c       0xc0 output/obj/yc_gpio.o
+                0x01000b9c                GPIO_SetBits
+ .text.GPIO_StructInit
+                0x01000c5c        0xc output/obj/yc_gpio.o
+                0x01000c5c                GPIO_StructInit
+ .text.GPIO_Write
+                0x01000c68       0x44 output/obj/yc_gpio.o
+                0x01000c68                GPIO_Write
+ .text.GPIO_WriteBit
+                0x01000cac       0xb8 output/obj/yc_gpio.o
+                0x01000cac                GPIO_WriteBit
+ .text          0x01000d64        0x0 output/obj/yc_timer.o
+ .text.delay_us
+                0x01000d64        0xc output/obj/yc_timer.o
+                0x01000d64                delay_us
+ .text.delay_ms
+                0x01000d70        0xc output/obj/yc_timer.o
+                0x01000d70                delay_ms
+ .text.TIM_Init
+                0x01000d7c       0x5c output/obj/yc_timer.o
+                0x01000d7c                TIM_Init
+ .text.TIM_DeInit
+                0x01000dd8       0x10 output/obj/yc_timer.o
+                0x01000dd8                TIM_DeInit
+ .text.TIM_Cmd  0x01000de8       0x5c output/obj/yc_timer.o
+                0x01000de8                TIM_Cmd
+ .text.TIM_ModeConfig
+                0x01000e44       0x6c output/obj/yc_timer.o
+                0x01000e44                TIM_ModeConfig
+ .text.TIM_SetPeriod
+                0x01000eb0       0x2c output/obj/yc_timer.o
+                0x01000eb0                TIM_SetPeriod
+ .text.TIM_PWMInit
+                0x01000edc       0x98 output/obj/yc_timer.o
+                0x01000edc                TIM_PWMInit
+ .text.TIM_SetPWMPeriod
+                0x01000f74       0x30 output/obj/yc_timer.o
+                0x01000f74                TIM_SetPWMPeriod
+ .text.TIM_PWMDifferential
+                0x01000fa4       0xa4 output/obj/yc_timer.o
+                0x01000fa4                TIM_PWMDifferential
+ .text          0x01001048        0x0 output/obj/yc_ipc.o
+ .text.IPC_have_data
+                0x01001048       0x28 output/obj/yc_ipc.o
+                0x01001048                IPC_have_data
+ .text.IPC_get_available_size
+                0x01001070       0x84 output/obj/yc_ipc.o
+                0x01001070                IPC_get_available_size
+ .text.IPC_TxData
+                0x010010f4       0xbc output/obj/yc_ipc.o
+                0x010010f4                IPC_TxData
+ .text.IPC_PutBtData
+                0x010011b0       0xa4 output/obj/yc_ipc.o
+                0x010011b0                IPC_PutBtData
+ .text.IPC_ReadBtData
+                0x01001254       0xf4 output/obj/yc_ipc.o
+                0x01001254                IPC_ReadBtData
+ .text.IPC_GetBtData
+                0x01001348       0x90 output/obj/yc_ipc.o
+                0x01001348                IPC_GetBtData
+ .text._dma_wait
+                0x010013d8       0x14 output/obj/yc_ipc.o
+                0x010013d8                _dma_wait
+ .text._dmacopy
+                0x010013ec       0x18 output/obj/yc_ipc.o
+                0x010013ec                _dmacopy
+ .text._download_btcode
+                0x01001404       0xe4 output/obj/yc_ipc.o
+                0x01001404                _download_btcode
+ .text.erase_memory
+                0x010014e8       0x2c output/obj/yc_ipc.o
+                0x010014e8                erase_memory
+ .text.IpcInit  0x01001514       0x84 output/obj/yc_ipc.o
+                0x01001514                IpcInit
+ .text.PrintHCIPack
+                0x01001598       0x90 output/obj/yc_ipc.o
+                0x01001598                PrintHCIPack
+ .text._dma_start.constprop.1
+                0x01001628       0x2c output/obj/yc_ipc.o
+ .text          0x01001654        0x0 output/obj/yc_uart.o
+ .text.UART_AutoFlowCtrlCmd
+                0x01001654       0x58 output/obj/yc_uart.o
+                0x01001654                UART_AutoFlowCtrlCmd
+ .text.UART_ClearIT
+                0x010016ac       0x14 output/obj/yc_uart.o
+                0x010016ac                UART_ClearIT
+ .text.UART_DeInit
+                0x010016c0       0x34 output/obj/yc_uart.o
+                0x010016c0                UART_DeInit
+ .text.UART_DMASendBuf
+                0x010016f4       0x80 output/obj/yc_uart.o
+                0x010016f4                UART_DMASendBuf
+ .text.UART_GetITIdentity
+                0x01001774       0x4c output/obj/yc_uart.o
+                0x01001774                UART_GetITIdentity
+ .text.UART_Init
+                0x010017c0      0x138 output/obj/yc_uart.o
+                0x010017c0                UART_Init
+ .text.UART_IsRXFIFOFull
+                0x010018f8       0x34 output/obj/yc_uart.o
+                0x010018f8                UART_IsRXFIFOFull
+ .text.UART_IsRXFIFONotEmpty
+                0x0100192c       0x38 output/obj/yc_uart.o
+                0x0100192c                UART_IsRXFIFONotEmpty
+ .text.UART_IsUARTBusy
+                0x01001964       0x34 output/obj/yc_uart.o
+                0x01001964                UART_IsUARTBusy
+ .text.UART_ITConfig
+                0x01001998       0x8c output/obj/yc_uart.o
+                0x01001998                UART_ITConfig
+ .text.UART_ReceiveData
+                0x01001a24       0x34 output/obj/yc_uart.o
+                0x01001a24                UART_ReceiveData
+ .text.UART_RecvBuf
+                0x01001a58       0x68 output/obj/yc_uart.o
+                0x01001a58                UART_RecvBuf
+ .text.UART_SendBuf
+                0x01001ac0       0xac output/obj/yc_uart.o
+                0x01001ac0                UART_SendBuf
+ .text.UART_SendData
+                0x01001b6c       0x70 output/obj/yc_uart.o
+                0x01001b6c                UART_SendData
+ .text.UART_SetITTimeout
+                0x01001bdc       0x18 output/obj/yc_uart.o
+                0x01001bdc                UART_SetITTimeout
+ .text.UART_SetRxITNum
+                0x01001bf4       0x40 output/obj/yc_uart.o
+                0x01001bf4                UART_SetRxITNum
+ .text.UART_StructInit
+                0x01001c34        0xe output/obj/yc_uart.o
+                0x01001c34                UART_StructInit
+ *fill*         0x01001c42        0x2 
+ .text.UART_ReceiveDataLen
+                0x01001c44       0x34 output/obj/yc_uart.o
+                0x01001c44                UART_ReceiveDataLen
+ .text          0x01001c78        0x0 output/obj/yc_lpm.o
+ .text.lpm_read
+                0x01001c78        0xc output/obj/yc_lpm.o
+                0x01001c78                lpm_read
+ .text.lpm_write
+                0x01001c84        0xc output/obj/yc_lpm.o
+                0x01001c84                lpm_write
+ .text.lpm_bt_write
+                0x01001c90       0x74 output/obj/yc_lpm.o
+                0x01001c90                lpm_bt_write
+ .text.lpm_bt_read
+                0x01001d04       0x18 output/obj/yc_lpm.o
+                0x01001d04                lpm_bt_read
+ .text.lpm_sleep
+                0x01001d1c        0xc output/obj/yc_lpm.o
+                0x01001d1c                lpm_sleep
+ .text.setlpmval
+                0x01001d28        0xc output/obj/yc_lpm.o
+                0x01001d28                setlpmval
+ .text.readlpmval
+                0x01001d34       0x16 output/obj/yc_lpm.o
+                0x01001d34                readlpmval
+ *fill*         0x01001d4a        0x2 
+ .text.GPIO_Unused_Pd
+                0x01001d4c       0x34 output/obj/yc_lpm.o
+                0x01001d4c                GPIO_Unused_Pd
+ .text.BT_Hibernate
+                0x01001d80       0x6c output/obj/yc_lpm.o
+                0x01001d80                BT_Hibernate
+ .text.Chip_Speedstep
+                0x01001dec        0xa output/obj/yc_lpm.o
+                0x01001dec                Chip_Speedstep
+ *fill*         0x01001df6        0x2 
+ .text.CM0_Sleep
+                0x01001df8      0x118 output/obj/yc_lpm.o
+                0x01001df8                CM0_Sleep
+ .text.enable_gpio_32
+                0x01001f10       0x18 output/obj/yc_lpm.o
+                0x01001f10                enable_gpio_32
+ .text          0x01001f28        0x0 output/obj/yc_otp.o
+ .text.deinit_otp
+                0x01001f28        0xc output/obj/yc_otp.o
+                0x01001f28                deinit_otp
+ .text.init_otp
+                0x01001f34        0xc output/obj/yc_otp.o
+                0x01001f34                init_otp
+ .text.read_chip_life
+                0x01001f40       0x18 output/obj/yc_otp.o
+                0x01001f40                read_chip_life
+ .text.read_chipid
+                0x01001f58       0x18 output/obj/yc_otp.o
+                0x01001f58                read_chipid
+ .text.read_otp
+                0x01001f70       0x24 output/obj/yc_otp.o
+                0x01001f70                read_otp
+ .text.write_otp
+                0x01001f94        0xc output/obj/yc_otp.o
+                0x01001f94                write_otp
+ .text          0x01001fa0        0x0 output/obj/yc_sysctrl.o
+ .text.SYSCTRL_AHBPeriphClockCmd
+                0x01001fa0       0x3c output/obj/yc_sysctrl.o
+                0x01001fa0                SYSCTRL_AHBPeriphClockCmd
+ .text.SYSCTRL_EnterSleep
+                0x01001fdc       0x24 output/obj/yc_sysctrl.o
+                0x01001fdc                SYSCTRL_EnterSleep
+ .text.HCLKConfig_Div_None
+                0x01002000       0x20 output/obj/yc_sysctrl.o
+                0x01002000                HCLKConfig_Div_None
+ .text.SYSCTRL_HCLKConfig
+                0x01002020       0x60 output/obj/yc_sysctrl.o
+                0x01002020                SYSCTRL_HCLKConfig
+ .text.SYSCTRL_GetClocksFreq
+                0x01002080       0x20 output/obj/yc_sysctrl.o
+                0x01002080                SYSCTRL_GetClocksFreq
+ .text.SYSCTRL_EnableDpllClk
+                0x010020a0       0x60 output/obj/yc_sysctrl.o
+                0x010020a0                SYSCTRL_EnableDpllClk
+ .text          0x01002100        0x0 output/obj/usb_core.o
+ .text.USB_OTG_WritePacket
+                0x01002100       0x22 output/obj/usb_core.o
+                0x01002100                USB_OTG_WritePacket
+ *fill*         0x01002122        0x2 
+ .text.USB_OTG_ReadPacket
+                0x01002124       0x18 output/obj/usb_core.o
+                0x01002124                USB_OTG_ReadPacket
+ .text.USB_OTG_SelectCore
+                0x0100213c       0x88 output/obj/usb_core.o
+                0x0100213c                USB_OTG_SelectCore
+ .text.USB_OTG_CoreInit
+                0x010021c4        0x4 output/obj/usb_core.o
+                0x010021c4                USB_OTG_CoreInit
+ .text.USB_OTG_SetCurrentMode
+                0x010021c8       0x22 output/obj/usb_core.o
+                0x010021c8                USB_OTG_SetCurrentMode
+ .text.USB_OTG_EPActivate
+                0x010021ea       0x16 output/obj/usb_core.o
+                0x010021ea                USB_OTG_EPActivate
+ .text.USB_OTG_EPDeactivate
+                0x01002200       0x14 output/obj/usb_core.o
+                0x01002200                USB_OTG_EPDeactivate
+ .text.USB_OTG_GetMode
+                0x01002214        0x4 output/obj/usb_core.o
+                0x01002214                USB_OTG_GetMode
+ .text.USB_OTG_IsDeviceMode
+                0x01002218        0x4 output/obj/usb_core.o
+                0x01002218                USB_OTG_IsDeviceMode
+ .text.USB_OTG_EP0StartXfer
+                0x0100221c       0xa4 output/obj/usb_core.o
+                0x0100221c                USB_OTG_EP0StartXfer
+ .text.USB_OTG_EPStartXfer
+                0x010022c0       0xe8 output/obj/usb_core.o
+                0x010022c0                USB_OTG_EPStartXfer
+ .text.USB_OTG_TRIG
+                0x010023a8       0x44 output/obj/usb_core.o
+                0x010023a8                USB_OTG_TRIG
+ .text.USB_OTG_EPSetStall
+                0x010023ec       0x14 output/obj/usb_core.o
+                0x010023ec                USB_OTG_EPSetStall
+ .text.USB_OTG_EPReply_Zerolen
+                0x01002400       0x10 output/obj/usb_core.o
+                0x01002400                USB_OTG_EPReply_Zerolen
+ .text.USB_OTG_ActiveRemoteWakeup
+                0x01002410       0x2e output/obj/usb_core.o
+                0x01002410                USB_OTG_ActiveRemoteWakeup
+ .text          0x0100243e        0x0 output/obj/Usb_dcd.o
+ .text.DCD_Init
+                0x0100243e       0x6a output/obj/Usb_dcd.o
+                0x0100243e                DCD_Init
+ .text.DCD_EP_Open
+                0x010024a8       0x3c output/obj/Usb_dcd.o
+                0x010024a8                DCD_EP_Open
+ .text.DCD_EP_Close
+                0x010024e4       0x2c output/obj/Usb_dcd.o
+                0x010024e4                DCD_EP_Close
+ .text.DCD_EP_PrepareRx
+                0x01002510       0xbc output/obj/Usb_dcd.o
+                0x01002510                DCD_EP_PrepareRx
+ .text.DCD_EP_Tx
+                0x010025cc       0x38 output/obj/Usb_dcd.o
+                0x010025cc                DCD_EP_Tx
+ .text.DCD_EP_Stall
+                0x01002604       0x2e output/obj/Usb_dcd.o
+                0x01002604                DCD_EP_Stall
+ .text          0x01002632        0x0 output/obj/Usb_dcd_init.o
+ .text._delay_  0x01002632        0x8 output/obj/Usb_dcd_init.o
+                0x01002632                _delay_
+ *fill*         0x0100263a        0x2 
+ .text.USBD_OTG_ISR_Handler
+                0x0100263c      0x1b4 output/obj/Usb_dcd_init.o
+                0x0100263c                USBD_OTG_ISR_Handler
+ .text          0x010027f0        0x0 output/obj/usbd_core.o
+ .text.USBD_SetupStage
+                0x010027f0       0xac output/obj/usbd_core.o
+ .text.USBD_DataOutStage
+                0x0100289c       0x7a output/obj/usbd_core.o
+ .text.USBD_DataInStage
+                0x01002916       0x22 output/obj/usbd_core.o
+ .text.USBD_Init
+                0x01002938       0x14 output/obj/usbd_core.o
+                0x01002938                USBD_Init
+ .text.USBD_DeInit
+                0x0100294c        0x4 output/obj/usbd_core.o
+                0x0100294c                USBD_DeInit
+ .text.USBD_Reset
+                0x01002950       0x30 output/obj/usbd_core.o
+ .text.USBD_Resume
+                0x01002980       0x18 output/obj/usbd_core.o
+ .text.USBD_Suspend
+                0x01002998       0x1e output/obj/usbd_core.o
+ .text.USBD_SOF
+                0x010029b6       0x14 output/obj/usbd_core.o
+ .text.USBD_SetCfg
+                0x010029ca       0x16 output/obj/usbd_core.o
+                0x010029ca                USBD_SetCfg
+ .text.USBD_ClrCfg
+                0x010029e0       0x10 output/obj/usbd_core.o
+                0x010029e0                USBD_ClrCfg
+ .text.USBD_IsoINIncomplete
+                0x010029f0       0x10 output/obj/usbd_core.o
+ .text.USBD_IsoOUTIncomplete
+                0x01002a00       0x10 output/obj/usbd_core.o
+ .text.USBD_DevConnected
+                0x01002a10       0x18 output/obj/usbd_core.o
+ .text.USBD_DevDisconnected
+                0x01002a28       0x20 output/obj/usbd_core.o
+ .text          0x01002a48        0x0 output/obj/usbd_ioreq.o
+ .text.USBD_CtlSendData
+                0x01002a48       0x1c output/obj/usbd_ioreq.o
+                0x01002a48                USBD_CtlSendData
+ .text.USBD_CtlContinueSendData
+                0x01002a64       0x10 output/obj/usbd_ioreq.o
+                0x01002a64                USBD_CtlContinueSendData
+ .text.USBD_CtlPrepareRx
+                0x01002a74       0x20 output/obj/usbd_ioreq.o
+                0x01002a74                USBD_CtlPrepareRx
+ .text.USBD_CtlContinueRx
+                0x01002a94       0x10 output/obj/usbd_ioreq.o
+                0x01002a94                USBD_CtlContinueRx
+ .text.USBD_CtlSendStatus
+                0x01002aa4       0x14 output/obj/usbd_ioreq.o
+                0x01002aa4                USBD_CtlSendStatus
+ .text.USBD_CtlReceiveStatus
+                0x01002ab8       0x18 output/obj/usbd_ioreq.o
+                0x01002ab8                USBD_CtlReceiveStatus
+ .text.USBD_GetRxCount
+                0x01002ad0        0xe output/obj/usbd_ioreq.o
+                0x01002ad0                USBD_GetRxCount
+ .text          0x01002ade        0x0 output/obj/usbd_req.o
+ *fill*         0x01002ade        0x2 
+ .text.USBD_StdDevReq
+                0x01002ae0      0x21c output/obj/usbd_req.o
+                0x01002ae0                USBD_StdDevReq
+ .text.USBD_StdItfReq
+                0x01002cfc       0x3a output/obj/usbd_req.o
+                0x01002cfc                USBD_StdItfReq
+ *fill*         0x01002d36        0x2 
+ .text.USBD_StdEPReq
+                0x01002d38       0xbc output/obj/usbd_req.o
+                0x01002d38                USBD_StdEPReq
+ .text.USBD_ParseSetupRequest
+                0x01002df4       0x50 output/obj/usbd_req.o
+                0x01002df4                USBD_ParseSetupRequest
+ .text.USBD_CtlError
+                0x01002e44        0xa output/obj/usbd_req.o
+                0x01002e44                USBD_CtlError
+ .text.USBD_GetString
+                0x01002e4e       0x3a output/obj/usbd_req.o
+                0x01002e4e                USBD_GetString
+ .text          0x01002e88        0x0 output/obj/usbd_ccid_cmd.o
+ .text.PC_to_RDR_IccPowerOn
+                0x01002e88       0x38 output/obj/usbd_ccid_cmd.o
+                0x01002e88                PC_to_RDR_IccPowerOn
+ .text.PC_to_RDR_IccPowerOff
+                0x01002ec0       0x10 output/obj/usbd_ccid_cmd.o
+                0x01002ec0                PC_to_RDR_IccPowerOff
+ .text.PC_to_RDR_GetSlotStatus
+                0x01002ed0       0x18 output/obj/usbd_ccid_cmd.o
+                0x01002ed0                PC_to_RDR_GetSlotStatus
+ .text.resp_CCID_CMD
+                0x01002ee8       0xc0 output/obj/usbd_ccid_cmd.o
+                0x01002ee8                resp_CCID_CMD
+ .text.PC_to_RDR_XfrBlock
+                0x01002fa8       0x80 output/obj/usbd_ccid_cmd.o
+                0x01002fa8                PC_to_RDR_XfrBlock
+ .text.PC_to_RDR_GetParameters
+                0x01003028        0x8 output/obj/usbd_ccid_cmd.o
+                0x01003028                PC_to_RDR_GetParameters
+ .text.PC_to_RDR_ResetParameters
+                0x01003030       0x44 output/obj/usbd_ccid_cmd.o
+                0x01003030                PC_to_RDR_ResetParameters
+ .text.PC_to_RDR_SetParameters
+                0x01003074       0x74 output/obj/usbd_ccid_cmd.o
+                0x01003074                PC_to_RDR_SetParameters
+ .text.PC_to_RDR_Escape
+                0x010030e8       0x28 output/obj/usbd_ccid_cmd.o
+                0x010030e8                PC_to_RDR_Escape
+ .text.PC_to_RDR_IccClock
+                0x01003110       0x38 output/obj/usbd_ccid_cmd.o
+                0x01003110                PC_to_RDR_IccClock
+ .text.PC_to_RDR_Abort
+                0x01003148       0x18 output/obj/usbd_ccid_cmd.o
+                0x01003148                PC_to_RDR_Abort
+ .text.CCID_CmdAbort
+                0x01003160       0x38 output/obj/usbd_ccid_cmd.o
+                0x01003160                CCID_CmdAbort
+ .text.PC_TO_RDR_T0Apdu
+                0x01003198       0x28 output/obj/usbd_ccid_cmd.o
+                0x01003198                PC_TO_RDR_T0Apdu
+ .text.PC_TO_RDR_Mechanical
+                0x010031c0       0x28 output/obj/usbd_ccid_cmd.o
+                0x010031c0                PC_TO_RDR_Mechanical
+ .text.PC_TO_RDR_SetDataRateAndClockFrequency
+                0x010031e8       0x48 output/obj/usbd_ccid_cmd.o
+                0x010031e8                PC_TO_RDR_SetDataRateAndClockFrequency
+ .text.PC_TO_RDR_Secure
+                0x01003230       0x50 output/obj/usbd_ccid_cmd.o
+                0x01003230                PC_TO_RDR_Secure
+ .text.RDR_to_PC_DataBlock
+                0x01003280       0x2c output/obj/usbd_ccid_cmd.o
+                0x01003280                RDR_to_PC_DataBlock
+ .text.RDR_to_PC_SlotStatus
+                0x010032ac       0x24 output/obj/usbd_ccid_cmd.o
+                0x010032ac                RDR_to_PC_SlotStatus
+ .text.RDR_to_PC_Parameters
+                0x010032d0       0x54 output/obj/usbd_ccid_cmd.o
+                0x010032d0                RDR_to_PC_Parameters
+ .text.RDR_to_PC_Escape
+                0x01003324       0x2c output/obj/usbd_ccid_cmd.o
+                0x01003324                RDR_to_PC_Escape
+ .text.RDR_to_PC_DataRateAndClockFrequency
+                0x01003350       0x2c output/obj/usbd_ccid_cmd.o
+                0x01003350                RDR_to_PC_DataRateAndClockFrequency
+ .text.RDR_to_PC_NotifySlotChange
+                0x0100337c       0x10 output/obj/usbd_ccid_cmd.o
+                0x0100337c                RDR_to_PC_NotifySlotChange
+ .text.CCID_UpdSlotStatus
+                0x0100338c        0xc output/obj/usbd_ccid_cmd.o
+                0x0100338c                CCID_UpdSlotStatus
+ .text.CCID_UpdSlotChange
+                0x01003398        0xc output/obj/usbd_ccid_cmd.o
+                0x01003398                CCID_UpdSlotChange
+ .text.CCID_IsSlotStatusChange
+                0x010033a4        0xc output/obj/usbd_ccid_cmd.o
+                0x010033a4                CCID_IsSlotStatusChange
+ .text.CCID_CheckCommandParams
+                0x010033b0       0xa0 output/obj/usbd_ccid_cmd.o
+ .text          0x01003450        0x0 output/obj/usbd_ccid_core.o
+ .text.USBD_CCID_Init
+                0x01003450       0x30 output/obj/usbd_ccid_core.o
+ .text.USBD_CCID_DeInit
+                0x01003480       0x24 output/obj/usbd_ccid_core.o
+ .text.USBD_CCID_Setup
+                0x010034a4       0x88 output/obj/usbd_ccid_core.o
+ .text.USBD_CCID_DataIn
+                0x0100352c        0xa output/obj/usbd_ccid_core.o
+ *fill*         0x01003536        0x2 
+ .text.USBD_CCID_DataOut
+                0x01003538       0x20 output/obj/usbd_ccid_core.o
+                0x01003538                USBD_CCID_DataOut
+ .text.USBD_CCID_GetCfgDesc
+                0x01003558        0xc output/obj/usbd_ccid_core.o
+ .text          0x01003564        0x0 output/obj/usbd_ccid_if.o
+ .text.CCID_Init
+                0x01003564       0x14 output/obj/usbd_ccid_if.o
+                0x01003564                CCID_Init
+ .text.CCID_DeInit
+                0x01003578        0xc output/obj/usbd_ccid_if.o
+                0x01003578                CCID_DeInit
+ .text.CCID_BulkMessage_In
+                0x01003584       0x10 output/obj/usbd_ccid_if.o
+                0x01003584                CCID_BulkMessage_In
+ .text.CCID_wait_next_packet
+                0x01003594       0x6c output/obj/usbd_ccid_if.o
+                0x01003594                CCID_wait_next_packet
+ .text.CCID_BulkMessage_Out
+                0x01003600      0x110 output/obj/usbd_ccid_if.o
+                0x01003600                CCID_BulkMessage_Out
+ .text.CCID_CmdDecode
+                0x01003710      0x158 output/obj/usbd_ccid_if.o
+                0x01003710                CCID_CmdDecode
+ .text.Transfer_Data_Request
+                0x01003868       0x1c output/obj/usbd_ccid_if.o
+                0x01003868                Transfer_Data_Request
+ .text.CCID_IntMessage
+                0x01003884       0x3c output/obj/usbd_ccid_if.o
+                0x01003884                CCID_IntMessage
+ .text.CCID_ReceiveCmdHeader
+                0x010038c0       0x18 output/obj/usbd_ccid_if.o
+                0x010038c0                CCID_ReceiveCmdHeader
+ .text.CCID_IsIntrTransferComplete
+                0x010038d8        0xc output/obj/usbd_ccid_if.o
+                0x010038d8                CCID_IsIntrTransferComplete
+ .text.CCID_SetIntrTransferStatus
+                0x010038e4        0xc output/obj/usbd_ccid_if.o
+                0x010038e4                CCID_SetIntrTransferStatus
+ .text          0x010038f0        0x0 output/obj/usb_main.o
+ .text.usb_reg_init
+                0x010038f0       0x58 output/obj/usb_main.o
+                0x010038f0                usb_reg_init
+ .text.usb_main
+                0x01003948       0x98 output/obj/usb_main.o
+                0x01003948                usb_main
+ .text.USB_IRQHandler
+                0x010039e0       0x10 output/obj/usb_main.o
+                0x010039e0                USB_IRQHandler
+ .text          0x010039f0        0x0 output/obj/usbd_desc.o
+ .text.USBD_USR_DeviceDescriptor
+                0x010039f0        0xc output/obj/usbd_desc.o
+                0x010039f0                USBD_USR_DeviceDescriptor
+ .text.USBD_USR_LangIDStrDescriptor
+                0x010039fc        0xc output/obj/usbd_desc.o
+                0x010039fc                USBD_USR_LangIDStrDescriptor
+ .text.USBD_USR_ProductStrDescriptor
+                0x01003a08       0x20 output/obj/usbd_desc.o
+                0x01003a08                USBD_USR_ProductStrDescriptor
+ .text.USBD_USR_ManufacturerStrDescriptor
+                0x01003a28       0x1c output/obj/usbd_desc.o
+                0x01003a28                USBD_USR_ManufacturerStrDescriptor
+ .text.USBD_USR_SerialStrDescriptor
+                0x01003a44       0x20 output/obj/usbd_desc.o
+                0x01003a44                USBD_USR_SerialStrDescriptor
+ .text.USBD_USR_ConfigStrDescriptor
+                0x01003a64       0x20 output/obj/usbd_desc.o
+                0x01003a64                USBD_USR_ConfigStrDescriptor
+ .text.USBD_USR_InterfaceStrDescriptor
+                0x01003a84       0x20 output/obj/usbd_desc.o
+                0x01003a84                USBD_USR_InterfaceStrDescriptor
+ .text          0x01003aa4        0x0 output/obj/usbd_usr.o
+ .text.USBD_USR_Init
+                0x01003aa4        0x2 output/obj/usbd_usr.o
+                0x01003aa4                USBD_USR_Init
+ *fill*         0x01003aa6        0x2 
+ .text.USBD_USR_DeviceReset
+                0x01003aa8       0x8c output/obj/usbd_usr.o
+                0x01003aa8                USBD_USR_DeviceReset
+ .text.USBD_USR_DeviceConfigured
+                0x01003b34        0x2 output/obj/usbd_usr.o
+                0x01003b34                USBD_USR_DeviceConfigured
+ .text.USBD_USR_DeviceConnected
+                0x01003b36        0x2 output/obj/usbd_usr.o
+                0x01003b36                USBD_USR_DeviceConnected
+ .text.USBD_USR_DeviceDisconnected
+                0x01003b38        0x2 output/obj/usbd_usr.o
+                0x01003b38                USBD_USR_DeviceDisconnected
+ .text.USBD_USR_DeviceSuspended
+                0x01003b3a        0x2 output/obj/usbd_usr.o
+                0x01003b3a                USBD_USR_DeviceSuspended
+ .text.USBD_USR_DeviceResumed
+                0x01003b3c        0x2 output/obj/usbd_usr.o
+                0x01003b3c                USBD_USR_DeviceResumed
+ *fill*         0x01003b3e        0x2 
+ .text.my_delay_ms
+                0x01003b40       0x34 output/obj/usbd_usr.o
+                0x01003b40                my_delay_ms
+ .text          0x01003b74        0x0 output/obj/sc_itf.o
+ .text.SC_GetDTableValue
+                0x01003b74        0xc output/obj/sc_itf.o
+                0x01003b74                SC_GetDTableValue
+ .text.SC_InitParams
+                0x01003b80       0x28 output/obj/sc_itf.o
+                0x01003b80                SC_InitParams
+ .text.SC_SetClock
+                0x01003ba8       0x12 output/obj/sc_itf.o
+                0x01003ba8                SC_SetClock
+ *fill*         0x01003bba        0x2 
+ .text.SC_SetParams
+                0x01003bbc       0x44 output/obj/sc_itf.o
+                0x01003bbc                SC_SetParams
+ .text.SC_XferBlock
+                0x01003c00      0x194 output/obj/sc_itf.o
+                0x01003c00                SC_XferBlock
+ .text          0x01003d94        0x0 output/obj/main.o
+ .text.startup.main
+                0x01003d94       0x1c output/obj/main.o
+                0x01003d94                main
+ .text.UART_Configuration
+                0x01003db0       0x2e output/obj/main.o
+                0x01003db0                UART_Configuration
+ .text          0x01003dde        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memcpy-stub.o)
+ *fill*         0x01003dde        0x2 
+ .text.memcpy   0x01003de0       0x88 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memcpy-stub.o)
+                0x01003de0                memcpy
+ .text          0x01003e68        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memset.o)
+ .text.memset   0x01003e68       0x9c C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memset.o)
+                0x01003e68                memset
+ .text          0x01003f04       0x14 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_thumb1_case_uqi.o)
+                0x01003f04                __gnu_thumb1_case_uqi
+ .text          0x01003f18       0x14 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_thumb1_case_uhi.o)
+                0x01003f18                __gnu_thumb1_case_uhi
+ .text          0x01003f2c      0x114 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+                0x01003f2c                __aeabi_uidiv
+                0x01003f2c                __udivsi3
+                0x01004038                __aeabi_uidivmod
+ .text          0x01004040      0x1d4 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_divsi3.o)
+                0x01004040                __divsi3
+                0x01004040                __aeabi_idiv
+                0x0100420c                __aeabi_idivmod
+ .text          0x01004214        0x4 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
+                0x01004214                __aeabi_idiv0
+                0x01004214                __aeabi_ldiv0
+ *(.init)
+ *(.fini)
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata.str1.1
+                0x01004218       0x22 output/obj/system.o
+ *fill*         0x0100423a        0x2 
+ .rodata.g_pcHex1
+                0x0100423c        0x4 output/obj/system.o
+ .rodata.g_pcHex2
+                0x01004240        0x4 output/obj/system.o
+ .rodata.MyPrintf.str1.1
+                0x01004244        0x6 output/obj/system.o
+                                  0x8 (size before relaxing)
+ .rodata.printv.str1.1
+                0x0100424a       0x15 output/obj/system.o
+ .rodata.bt_code
+                0x0100425f     0x1196 output/obj/bt_code.o
+                0x0100425f                bt_code
+ .rodata.GPIO_Config.str1.1
+                0x010053f5       0x27 output/obj/yc_gpio.o
+ .rodata.__FUNCTION__.5786
+                0x0100541c        0xc output/obj/yc_gpio.o
+ .rodata.__FUNCTION__.5795
+                0x01005428        0xa output/obj/yc_gpio.o
+ .rodata.__FUNCTION__.5824
+                0x01005432        0xf output/obj/yc_gpio.o
+ .rodata.__FUNCTION__.5832
+                0x01005441       0x13 output/obj/yc_gpio.o
+ .rodata.__FUNCTION__.5837
+                0x01005454       0x16 output/obj/yc_gpio.o
+ .rodata.__FUNCTION__.5841
+                0x0100546a       0x14 output/obj/yc_gpio.o
+ .rodata.__FUNCTION__.5846
+                0x0100547e       0x17 output/obj/yc_gpio.o
+ .rodata.__FUNCTION__.5851
+                0x01005495        0xf output/obj/yc_gpio.o
+ .rodata.__FUNCTION__.5861
+                0x010054a4        0xd output/obj/yc_gpio.o
+ .rodata.__FUNCTION__.5873
+                0x010054b1        0xb output/obj/yc_gpio.o
+ .rodata.__FUNCTION__.5883
+                0x010054bc        0xe output/obj/yc_gpio.o
+ .rodata.TIM_Init.str1.1
+                0x010054ca       0x28 output/obj/yc_timer.o
+ .rodata.__FUNCTION__.5642
+                0x010054f2        0x9 output/obj/yc_timer.o
+ .rodata.__FUNCTION__.5649
+                0x010054fb        0x8 output/obj/yc_timer.o
+ .rodata.__FUNCTION__.5654
+                0x01005503        0xf output/obj/yc_timer.o
+ .rodata.__FUNCTION__.5659
+                0x01005512        0xe output/obj/yc_timer.o
+ .rodata.__FUNCTION__.5663
+                0x01005520        0xc output/obj/yc_timer.o
+ .rodata.__FUNCTION__.5669
+                0x0100552c       0x11 output/obj/yc_timer.o
+ .rodata.__FUNCTION__.5676
+                0x0100553d       0x14 output/obj/yc_timer.o
+ .rodata.PrintHCIPack.str1.1
+                0x01005551       0x42 output/obj/yc_ipc.o
+                                 0x4a (size before relaxing)
+ .rodata.UART_AutoFlowCtrlCmd.str1.1
+                0x01005593       0x27 output/obj/yc_uart.o
+ .rodata.__FUNCTION__.5473
+                0x010055ba       0x15 output/obj/yc_uart.o
+ .rodata.__FUNCTION__.5487
+                0x010055cf        0xc output/obj/yc_uart.o
+ .rodata.__FUNCTION__.5496
+                0x010055db       0x10 output/obj/yc_uart.o
+ .rodata.__FUNCTION__.5510
+                0x010055eb        0xa output/obj/yc_uart.o
+ .rodata.__FUNCTION__.5514
+                0x010055f5       0x12 output/obj/yc_uart.o
+ .rodata.__FUNCTION__.5518
+                0x01005607       0x16 output/obj/yc_uart.o
+ .rodata.__FUNCTION__.5522
+                0x0100561d       0x10 output/obj/yc_uart.o
+ .rodata.__FUNCTION__.5528
+                0x0100562d        0xe output/obj/yc_uart.o
+ .rodata.__FUNCTION__.5535
+                0x0100563b       0x11 output/obj/yc_uart.o
+ .rodata.__FUNCTION__.5544
+                0x0100564c        0xd output/obj/yc_uart.o
+ .rodata.__FUNCTION__.5553
+                0x01005659        0xd output/obj/yc_uart.o
+ .rodata.__FUNCTION__.5579
+                0x01005666       0x10 output/obj/yc_uart.o
+ .rodata.__FUNCTION__.5586
+                0x01005676       0x14 output/obj/yc_uart.o
+ .rodata.SYSCTRL_AHBPeriphClockCmd.str1.1
+                0x0100568a       0x2a output/obj/yc_sysctrl.o
+ .rodata.__FUNCTION__.5488
+                0x010056b4       0x1a output/obj/yc_sysctrl.o
+ .rodata.__FUNCTION__.5492
+                0x010056ce       0x13 output/obj/yc_sysctrl.o
+ .rodata.__FUNCTION__.5500
+                0x010056e1       0x13 output/obj/yc_sysctrl.o
+ .rodata.USBD_CCID_CfgDesc
+                0x010056f4       0x5d output/obj/usbd_ccid_core.o
+                0x010056f4                USBD_CCID_CfgDesc
+ .rodata.CCID_CmdDecode.str1.1
+                0x01005751       0x6e output/obj/usbd_ccid_if.o
+ .rodata.usb_main.str1.1
+                0x010057bf       0x21 output/obj/usb_main.o
+ .rodata.USBD_USR_ProductStrDescriptor.str1.1
+                0x010057e0       0x11 output/obj/usbd_desc.o
+ .rodata.USBD_USR_ManufacturerStrDescriptor.str1.1
+                0x010057f1        0x7 output/obj/usbd_desc.o
+ .rodata.USBD_USR_SerialStrDescriptor.str1.1
+                0x010057f8        0xd output/obj/usbd_desc.o
+ .rodata.USBD_USR_ConfigStrDescriptor.str1.1
+                0x01005805        0xe output/obj/usbd_desc.o
+ .rodata.USBD_USR_InterfaceStrDescriptor.str1.1
+                0x01005813        0xe output/obj/usbd_desc.o
+ .rodata.SC_XferBlock.str1.1
+                0x01005821       0x27 output/obj/sc_itf.o
+                                 0x2d (size before relaxing)
+ .rodata.main.str1.1
+                0x01005848       0x12 output/obj/main.o
+ *(.eh_frame*)
+
+.glue_7         0x0100585c        0x0
+ .glue_7        0x0100585c        0x0 linker stubs
+
+.glue_7t        0x0100585c        0x0
+ .glue_7t       0x0100585c        0x0 linker stubs
+
+.vfp11_veneer   0x0100585c        0x0
+ .vfp11_veneer  0x0100585c        0x0 linker stubs
+
+.v4_bx          0x0100585c        0x0
+ .v4_bx         0x0100585c        0x0 linker stubs
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x0100585c                . = ALIGN (0x4)
+                0x0100585c                __exidx_start = .
+                0x0100585c                __etext = .
+
+.data           0x00020000      0x144 load address 0x0100585c
+                0x00020000                __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data          0x00020000        0x0 output/obj/system.o
+ .data          0x00020000        0x0 output/obj/misc.o
+ .data          0x00020000        0x0 output/obj/bt_code.o
+ .data          0x00020000        0x0 output/obj/yc_gpio.o
+ .data          0x00020000        0x0 output/obj/yc_timer.o
+ .data          0x00020000        0x0 output/obj/yc_ipc.o
+ .data.IpcRx    0x00020000        0x4 output/obj/yc_ipc.o
+                0x00020000                IpcRx
+ .data.IpcTx    0x00020004        0x4 output/obj/yc_ipc.o
+                0x00020004                IpcTx
+ .data          0x00020008        0x0 output/obj/yc_uart.o
+ .data          0x00020008        0x0 output/obj/yc_lpm.o
+ .data          0x00020008        0x0 output/obj/yc_otp.o
+ .data          0x00020008        0x0 output/obj/yc_sysctrl.o
+ .data          0x00020008        0x0 output/obj/usb_core.o
+ .data          0x00020008        0x0 output/obj/Usb_dcd.o
+ .data          0x00020008        0x0 output/obj/Usb_dcd_init.o
+ .data          0x00020008        0x0 output/obj/usbd_core.o
+ .data.USBD_DCD_INT_cb
+                0x00020008       0x2c output/obj/usbd_core.o
+                0x00020008                USBD_DCD_INT_cb
+ .data.USBD_DCD_INT_fops
+                0x00020034        0x4 output/obj/usbd_core.o
+                0x00020034                USBD_DCD_INT_fops
+ .data          0x00020038        0x0 output/obj/usbd_ioreq.o
+ .data          0x00020038        0x0 output/obj/usbd_req.o
+ .data          0x00020038        0x0 output/obj/usbd_ccid_cmd.o
+ .data          0x00020038        0x0 output/obj/usbd_ccid_core.o
+ .data.USBD_CCID_cb
+                0x00020038       0x30 output/obj/usbd_ccid_core.o
+                0x00020038                USBD_CCID_cb
+ .data          0x00020068        0x0 output/obj/usbd_ccid_if.o
+ .data          0x00020068        0x0 output/obj/usb_main.o
+ .data          0x00020068        0x0 output/obj/usbd_desc.o
+ .data.USR_desc
+                0x00020068       0x1c output/obj/usbd_desc.o
+                0x00020068                USR_desc
+ .data.USBD_DeviceDesc
+                0x00020084       0x12 output/obj/usbd_desc.o
+                0x00020084                USBD_DeviceDesc
+ *fill*         0x00020096        0x2 
+ .data.USBD_DeviceQualifierDesc
+                0x00020098        0xa output/obj/usbd_desc.o
+                0x00020098                USBD_DeviceQualifierDesc
+ *fill*         0x000200a2        0x2 
+ .data.USBD_LangIDDesc
+                0x000200a4        0x4 output/obj/usbd_desc.o
+                0x000200a4                USBD_LangIDDesc
+ .data          0x000200a8        0x0 output/obj/usbd_usr.o
+ .data.USRD_cb  0x000200a8       0x1c output/obj/usbd_usr.o
+                0x000200a8                USRD_cb
+ .data          0x000200c4        0x0 output/obj/sc_itf.o
+ .data.F_Table  0x000200c4       0x40 output/obj/sc_itf.o
+ .data.D_Table  0x00020104       0x40 output/obj/sc_itf.o
+ .data          0x00020144        0x0 output/obj/main.o
+ .data          0x00020144        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memcpy-stub.o)
+ .data          0x00020144        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memset.o)
+ .data          0x00020144        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_thumb1_case_uqi.o)
+ .data          0x00020144        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_thumb1_case_uhi.o)
+ .data          0x00020144        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+ .data          0x00020144        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_divsi3.o)
+ .data          0x00020144        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
+                0x00020144                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                PROVIDE (__preinit_array_end = .)
+                0x00020144                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                [!provide]                PROVIDE (__init_array_end = .)
+                0x00020144                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array)
+                [!provide]                PROVIDE (__fini_array_end = .)
+ *(.jcr*)
+                0x00020144                . = ALIGN (0x4)
+                0x00020144                __data_end__ = .
+
+.bss            0x00020144     0x1ab4 load address 0x010059a0
+                0x00020144                . = ALIGN (0x4)
+                0x00020144                __bss_start__ = .
+ *(.bss*)
+ .bss           0x00020144        0x0 output/obj/system.o
+ .bss           0x00020144        0x0 output/obj/misc.o
+ .bss           0x00020144        0x0 output/obj/bt_code.o
+ .bss           0x00020144        0x0 output/obj/yc_gpio.o
+ .bss           0x00020144        0x0 output/obj/yc_timer.o
+ .bss           0x00020144        0x0 output/obj/yc_ipc.o
+ .bss.ipcrecbuf
+                0x00020144      0x100 output/obj/yc_ipc.o
+                0x00020144                ipcrecbuf
+ .bss.bt_lpm_mode
+                0x00020244        0x1 output/obj/yc_ipc.o
+                0x00020244                bt_lpm_mode
+ .bss.ipc_inited
+                0x00020245        0x1 output/obj/yc_ipc.o
+                0x00020245                ipc_inited
+ .bss           0x00020246        0x0 output/obj/yc_uart.o
+ .bss.uart0_DMA_buf
+                0x00020246      0x400 output/obj/yc_uart.o
+                0x00020246                uart0_DMA_buf
+ .bss.uart1_DMA_buf
+                0x00020646      0x400 output/obj/yc_uart.o
+                0x00020646                uart1_DMA_buf
+ .bss           0x00020a46        0x0 output/obj/yc_lpm.o
+ *fill*         0x00020a46        0x2 
+ .bss.value_rtc_1s
+                0x00020a48        0x4 output/obj/yc_lpm.o
+ .bss           0x00020a4c        0x0 output/obj/yc_otp.o
+ .bss           0x00020a4c        0x0 output/obj/yc_sysctrl.o
+ .bss           0x00020a4c        0x0 output/obj/usb_core.o
+ .bss           0x00020a4c        0x0 output/obj/Usb_dcd.o
+ .bss.next_flag
+                0x00020a4c        0x1 output/obj/Usb_dcd.o
+                0x00020a4c                next_flag
+ .bss           0x00020a4d        0x0 output/obj/Usb_dcd_init.o
+ .bss.setup_cnt
+                0x00020a4d        0x1 output/obj/Usb_dcd_init.o
+                0x00020a4d                setup_cnt
+ .bss.SetAddress_Flag
+                0x00020a4e        0x1 output/obj/Usb_dcd_init.o
+                0x00020a4e                SetAddress_Flag
+ .bss.Address_Value
+                0x00020a4f        0x1 output/obj/Usb_dcd_init.o
+                0x00020a4f                Address_Value
+ .bss           0x00020a50        0x0 output/obj/usbd_core.o
+ .bss.out0_data_len
+                0x00020a50        0x1 output/obj/usbd_core.o
+                0x00020a50                out0_data_len
+ .bss           0x00020a51        0x0 output/obj/usbd_ioreq.o
+ .bss           0x00020a51        0x0 output/obj/usbd_req.o
+ *fill*         0x00020a51        0x3 
+ .bss.USBD_ep_status
+                0x00020a54        0x4 output/obj/usbd_req.o
+                0x00020a54                USBD_ep_status
+ .bss.USBD_default_cfg
+                0x00020a58        0x4 output/obj/usbd_req.o
+                0x00020a58                USBD_default_cfg
+ .bss.USBD_cfg_status
+                0x00020a5c        0x4 output/obj/usbd_req.o
+                0x00020a5c                USBD_cfg_status
+ .bss.cfgidx.6268
+                0x00020a60        0x1 output/obj/usbd_req.o
+ .bss           0x00020a61        0x0 output/obj/usbd_ccid_cmd.o
+ *fill*         0x00020a61        0x3 
+ .bss.gu32RecvHead
+                0x00020a64        0x4 output/obj/usbd_ccid_cmd.o
+                0x00020a64                gu32RecvHead
+ .bss.gu32RecvTail
+                0x00020a68        0x4 output/obj/usbd_ccid_cmd.o
+                0x00020a68                gu32RecvTail
+ .bss           0x00020a6c        0x0 output/obj/usbd_ccid_core.o
+ .bss.USBD_CCID_EP0_Buff
+                0x00020a6c       0x40 output/obj/usbd_ccid_core.o
+ .bss           0x00020aac        0x0 output/obj/usbd_ccid_if.o
+ .bss.UsbMessageLength
+                0x00020aac        0x4 output/obj/usbd_ccid_if.o
+ .bss           0x00020ab0        0x0 output/obj/usb_main.o
+ .bss           0x00020ab0        0x0 output/obj/usbd_desc.o
+ .bss           0x00020ab0        0x0 output/obj/usbd_usr.o
+ .bss           0x00020ab0        0x0 output/obj/sc_itf.o
+ .bss           0x00020ab0        0x0 output/obj/main.o
+ .bss.bt_standby
+                0x00020ab0        0x1 output/obj/main.o
+                0x00020ab0                bt_standby
+ .bss           0x00020ab1        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memcpy-stub.o)
+ .bss           0x00020ab1        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memset.o)
+ .bss           0x00020ab1        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_thumb1_case_uqi.o)
+ .bss           0x00020ab1        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_thumb1_case_uhi.o)
+ .bss           0x00020ab1        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+ .bss           0x00020ab1        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_divsi3.o)
+ .bss           0x00020ab1        0x0 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
+ *(COMMON)
+ COMMON         0x00020ab1        0x1 output/obj/usb_core.o
+                0x00020ab1                data_len
+ *fill*         0x00020ab2        0x2 
+ COMMON         0x00020ab4       0x40 output/obj/usbd_req.o
+                0x00020ab4                USBD_StrDesc
+ COMMON         0x00020af4      0xba7 output/obj/usbd_ccid_cmd.o
+                0x00020af4                Ccid_out_cmd
+                0x0002158a                Ccid_resp_buff
+ *fill*         0x0002169b        0x1 
+ COMMON         0x0002169c      0x390 output/obj/usbd_ccid_if.o
+                0x0002169c                UsbIntMessageBuffer
+                0x000216a4                usb_ccid_param
+                0x000216a8                pUsbMessageBuffer
+                0x000216ac                BulkOut_Data_Buff
+                0x000216ec                pCcid_resp_buff
+                0x00021800                ccid_wait_data_len
+                0x00021804                ccid_wait_data_time
+                0x00021808                Ccid_bulkout_data
+                0x00021917                PrevXferComplete_IntrIn
+                0x00021918                Ccid_bulkin_data
+                0x00021a29                Ccid_SlotStatus
+                0x00021a2b                Ccid_BulkState
+ COMMON         0x00021a2c      0x180 output/obj/usb_main.o
+                0x00021a2c                USB_OTG_dev
+ COMMON         0x00021bac       0x4c output/obj/sc_itf.o
+                0x00021bac                SC_Response
+                0x00021bc6                SC_ADPU
+                0x00021be6                Protocol0_DataStructure
+                0x00021bec                SC_Param
+                0x00021bf8                . = ALIGN (0x4)
+                0x00021bf8                __bss_end__ = .
+
+.heap           0x00021bf8        0x0
+                0x00021bf8                __end__ = .
+                [!provide]                PROVIDE (end = .)
+ *(.heap*)
+                0x00021bf8                __HeapLimit = .
+
+.stack_dummy    0x00021bf8        0x0
+ *(.stack*)
+                0x00030000                __StackTop = (ORIGIN (RAM) + LENGTH (RAM))
+                0x00030000                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                [!provide]                PROVIDE (__stack = __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
+LOAD C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a
+LOAD C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libm.a
+LOAD C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a
+OUTPUT(output/out elf32-littlearm)
+
+.debug_info     0x00000000    0x1b74b
+ .debug_info    0x00000000      0xc31 output/obj/system.o
+ .debug_info    0x00000c31      0xc72 output/obj/misc.o
+ .debug_info    0x000018a3       0x58 output/obj/bt_code.o
+ .debug_info    0x000018fb     0x12a8 output/obj/yc_gpio.o
+ .debug_info    0x00002ba3      0xee9 output/obj/yc_timer.o
+ .debug_info    0x00003a8c     0x113f output/obj/yc_ipc.o
+ .debug_info    0x00004bcb     0x1364 output/obj/yc_uart.o
+ .debug_info    0x00005f2f     0x121b output/obj/yc_lpm.o
+ .debug_info    0x0000714a      0xa97 output/obj/yc_otp.o
+ .debug_info    0x00007be1      0xba1 output/obj/yc_sysctrl.o
+ .debug_info    0x00008782     0x1967 output/obj/usb_core.o
+ .debug_info    0x0000a0e9     0x12e0 output/obj/Usb_dcd.o
+ .debug_info    0x0000b3c9     0x1642 output/obj/Usb_dcd_init.o
+ .debug_info    0x0000ca0b     0x1765 output/obj/usbd_core.o
+ .debug_info    0x0000e170     0x1245 output/obj/usbd_ioreq.o
+ .debug_info    0x0000f3b5     0x18ee output/obj/usbd_req.o
+ .debug_info    0x00010ca3     0x1b84 output/obj/usbd_ccid_cmd.o
+ .debug_info    0x00012827     0x12b8 output/obj/usbd_ccid_core.o
+ .debug_info    0x00013adf     0x1c1e output/obj/usbd_ccid_if.o
+ .debug_info    0x000156fd     0x17cb output/obj/usb_main.o
+ .debug_info    0x00016ec8      0xd1f output/obj/usbd_desc.o
+ .debug_info    0x00017be7     0x108e output/obj/usbd_usr.o
+ .debug_info    0x00018c75     0x11cd output/obj/sc_itf.o
+ .debug_info    0x00019e42     0x1909 output/obj/main.o
+
+.debug_abbrev   0x00000000     0x4689
+ .debug_abbrev  0x00000000      0x29d output/obj/system.o
+ .debug_abbrev  0x0000029d      0x28f output/obj/misc.o
+ .debug_abbrev  0x0000052c       0x45 output/obj/bt_code.o
+ .debug_abbrev  0x00000571      0x27c output/obj/yc_gpio.o
+ .debug_abbrev  0x000007ed      0x2c9 output/obj/yc_timer.o
+ .debug_abbrev  0x00000ab6      0x3fc output/obj/yc_ipc.o
+ .debug_abbrev  0x00000eb2      0x34c output/obj/yc_uart.o
+ .debug_abbrev  0x000011fe      0x368 output/obj/yc_lpm.o
+ .debug_abbrev  0x00001566      0x25f output/obj/yc_otp.o
+ .debug_abbrev  0x000017c5      0x290 output/obj/yc_sysctrl.o
+ .debug_abbrev  0x00001a55      0x47a output/obj/usb_core.o
+ .debug_abbrev  0x00001ecf      0x26d output/obj/Usb_dcd.o
+ .debug_abbrev  0x0000213c      0x33e output/obj/Usb_dcd_init.o
+ .debug_abbrev  0x0000247a      0x40b output/obj/usbd_core.o
+ .debug_abbrev  0x00002885      0x230 output/obj/usbd_ioreq.o
+ .debug_abbrev  0x00002ab5      0x453 output/obj/usbd_req.o
+ .debug_abbrev  0x00002f08      0x3dc output/obj/usbd_ccid_cmd.o
+ .debug_abbrev  0x000032e4      0x2e2 output/obj/usbd_ccid_core.o
+ .debug_abbrev  0x000035c6      0x38c output/obj/usbd_ccid_if.o
+ .debug_abbrev  0x00003952      0x2cf output/obj/usb_main.o
+ .debug_abbrev  0x00003c21      0x268 output/obj/usbd_desc.o
+ .debug_abbrev  0x00003e89      0x2a5 output/obj/usbd_usr.o
+ .debug_abbrev  0x0000412e      0x2eb output/obj/sc_itf.o
+ .debug_abbrev  0x00004419      0x270 output/obj/main.o
+
+.debug_loc      0x00000000     0x4d1a
+ .debug_loc     0x00000000      0x44c output/obj/system.o
+ .debug_loc     0x0000044c       0x98 output/obj/misc.o
+ .debug_loc     0x000004e4      0x38d output/obj/yc_gpio.o
+ .debug_loc     0x00000871      0x308 output/obj/yc_timer.o
+ .debug_loc     0x00000b79      0x7d8 output/obj/yc_ipc.o
+ .debug_loc     0x00001351      0x6b5 output/obj/yc_uart.o
+ .debug_loc     0x00001a06      0x3a8 output/obj/yc_lpm.o
+ .debug_loc     0x00001dae      0x167 output/obj/yc_otp.o
+ .debug_loc     0x00001f15      0x129 output/obj/yc_sysctrl.o
+ .debug_loc     0x0000203e      0x66b output/obj/usb_core.o
+ .debug_loc     0x000026a9      0x528 output/obj/Usb_dcd.o
+ .debug_loc     0x00002bd1      0x266 output/obj/Usb_dcd_init.o
+ .debug_loc     0x00002e37      0x527 output/obj/usbd_core.o
+ .debug_loc     0x0000335e      0x23c output/obj/usbd_ioreq.o
+ .debug_loc     0x0000359a      0x69c output/obj/usbd_req.o
+ .debug_loc     0x00003c36      0x487 output/obj/usbd_ccid_cmd.o
+ .debug_loc     0x000040bd      0x244 output/obj/usbd_ccid_core.o
+ .debug_loc     0x00004301      0x2d6 output/obj/usbd_ccid_if.o
+ .debug_loc     0x000045d7       0x28 output/obj/usb_main.o
+ .debug_loc     0x000045ff      0x2bf output/obj/usbd_desc.o
+ .debug_loc     0x000048be       0x86 output/obj/usbd_usr.o
+ .debug_loc     0x00004944      0x3d6 output/obj/sc_itf.o
+
+.debug_aranges  0x00000000      0x890
+ .debug_aranges
+                0x00000000       0x38 output/obj/system.o
+ .debug_aranges
+                0x00000038       0x58 output/obj/misc.o
+ .debug_aranges
+                0x00000090       0x18 output/obj/bt_code.o
+ .debug_aranges
+                0x000000a8       0x78 output/obj/yc_gpio.o
+ .debug_aranges
+                0x00000120       0x68 output/obj/yc_timer.o
+ .debug_aranges
+                0x00000188       0x80 output/obj/yc_ipc.o
+ .debug_aranges
+                0x00000208       0xa8 output/obj/yc_uart.o
+ .debug_aranges
+                0x000002b0       0x78 output/obj/yc_lpm.o
+ .debug_aranges
+                0x00000328       0x48 output/obj/yc_otp.o
+ .debug_aranges
+                0x00000370       0x48 output/obj/yc_sysctrl.o
+ .debug_aranges
+                0x000003b8       0x90 output/obj/usb_core.o
+ .debug_aranges
+                0x00000448       0x48 output/obj/Usb_dcd.o
+ .debug_aranges
+                0x00000490       0x28 output/obj/Usb_dcd_init.o
+ .debug_aranges
+                0x000004b8       0x90 output/obj/usbd_core.o
+ .debug_aranges
+                0x00000548       0x50 output/obj/usbd_ioreq.o
+ .debug_aranges
+                0x00000598       0x48 output/obj/usbd_req.o
+ .debug_aranges
+                0x000005e0       0xe0 output/obj/usbd_ccid_cmd.o
+ .debug_aranges
+                0x000006c0       0x48 output/obj/usbd_ccid_core.o
+ .debug_aranges
+                0x00000708       0x70 output/obj/usbd_ccid_if.o
+ .debug_aranges
+                0x00000778       0x30 output/obj/usb_main.o
+ .debug_aranges
+                0x000007a8       0x50 output/obj/usbd_desc.o
+ .debug_aranges
+                0x000007f8       0x30 output/obj/usbd_usr.o
+ .debug_aranges
+                0x00000828       0x40 output/obj/sc_itf.o
+ .debug_aranges
+                0x00000868       0x28 output/obj/main.o
+
+.debug_ranges   0x00000000      0xa10
+ .debug_ranges  0x00000000       0x48 output/obj/system.o
+ .debug_ranges  0x00000048       0x78 output/obj/misc.o
+ .debug_ranges  0x000000c0       0x68 output/obj/yc_gpio.o
+ .debug_ranges  0x00000128       0x70 output/obj/yc_timer.o
+ .debug_ranges  0x00000198      0x128 output/obj/yc_ipc.o
+ .debug_ranges  0x000002c0       0x98 output/obj/yc_uart.o
+ .debug_ranges  0x00000358       0xb0 output/obj/yc_lpm.o
+ .debug_ranges  0x00000408       0x38 output/obj/yc_otp.o
+ .debug_ranges  0x00000440       0x50 output/obj/yc_sysctrl.o
+ .debug_ranges  0x00000490       0x98 output/obj/usb_core.o
+ .debug_ranges  0x00000528       0x50 output/obj/Usb_dcd.o
+ .debug_ranges  0x00000578       0x60 output/obj/Usb_dcd_init.o
+ .debug_ranges  0x000005d8       0xb0 output/obj/usbd_core.o
+ .debug_ranges  0x00000688       0x40 output/obj/usbd_ioreq.o
+ .debug_ranges  0x000006c8       0xc0 output/obj/usbd_req.o
+ .debug_ranges  0x00000788       0xd0 output/obj/usbd_ccid_cmd.o
+ .debug_ranges  0x00000858       0x38 output/obj/usbd_ccid_core.o
+ .debug_ranges  0x00000890       0x80 output/obj/usbd_ccid_if.o
+ .debug_ranges  0x00000910       0x40 output/obj/usb_main.o
+ .debug_ranges  0x00000950       0x40 output/obj/usbd_desc.o
+ .debug_ranges  0x00000990       0x20 output/obj/usbd_usr.o
+ .debug_ranges  0x000009b0       0x48 output/obj/sc_itf.o
+ .debug_ranges  0x000009f8       0x18 output/obj/main.o
+
+.debug_line     0x00000000     0x557f
+ .debug_line    0x00000000      0x2ff output/obj/system.o
+ .debug_line    0x000002ff      0x254 output/obj/misc.o
+ .debug_line    0x00000553       0x48 output/obj/bt_code.o
+ .debug_line    0x0000059b      0x4dc output/obj/yc_gpio.o
+ .debug_line    0x00000a77      0x33b output/obj/yc_timer.o
+ .debug_line    0x00000db2      0x4a9 output/obj/yc_ipc.o
+ .debug_line    0x0000125b      0x4d5 output/obj/yc_uart.o
+ .debug_line    0x00001730      0x36e output/obj/yc_lpm.o
+ .debug_line    0x00001a9e      0x20b output/obj/yc_otp.o
+ .debug_line    0x00001ca9      0x28f output/obj/yc_sysctrl.o
+ .debug_line    0x00001f38      0x474 output/obj/usb_core.o
+ .debug_line    0x000023ac      0x307 output/obj/Usb_dcd.o
+ .debug_line    0x000026b3      0x35e output/obj/Usb_dcd_init.o
+ .debug_line    0x00002a11      0x3fa output/obj/usbd_core.o
+ .debug_line    0x00002e0b      0x2a8 output/obj/usbd_ioreq.o
+ .debug_line    0x000030b3      0x3dc output/obj/usbd_req.o
+ .debug_line    0x0000348f      0x5cb output/obj/usbd_ccid_cmd.o
+ .debug_line    0x00003a5a      0x3ba output/obj/usbd_ccid_core.o
+ .debug_line    0x00003e14      0x531 output/obj/usbd_ccid_if.o
+ .debug_line    0x00004345      0x44d output/obj/usb_main.o
+ .debug_line    0x00004792      0x2d4 output/obj/usbd_desc.o
+ .debug_line    0x00004a66      0x316 output/obj/usbd_usr.o
+ .debug_line    0x00004d7c      0x3e8 output/obj/sc_itf.o
+ .debug_line    0x00005164      0x41b output/obj/main.o
+
+.debug_str      0x00000000     0x33f1
+ .debug_str     0x00000000      0x62a output/obj/system.o
+                                0x6ca (size before relaxing)
+ .debug_str     0x0000062a      0x292 output/obj/misc.o
+                                0x818 (size before relaxing)
+ .debug_str     0x000008bc       0x30 output/obj/bt_code.o
+                                0x13f (size before relaxing)
+ .debug_str     0x000008ec      0x41a output/obj/yc_gpio.o
+                                0x9c1 (size before relaxing)
+ .debug_str     0x00000d06      0x1d7 output/obj/yc_timer.o
+                                0x7a5 (size before relaxing)
+ .debug_str     0x00000edd      0x1f2 output/obj/yc_ipc.o
+                                0x80a (size before relaxing)
+ .debug_str     0x000010cf      0x1ec output/obj/yc_uart.o
+                                0x82e (size before relaxing)
+ .debug_str     0x000012bb      0x130 output/obj/yc_lpm.o
+                                0xad2 (size before relaxing)
+ .debug_str     0x000013eb       0x56 output/obj/yc_otp.o
+                                0x610 (size before relaxing)
+ .debug_str     0x00001441      0x110 output/obj/yc_sysctrl.o
+                                0x72a (size before relaxing)
+ .debug_str     0x00001551      0x907 output/obj/usb_core.o
+                               0x102c (size before relaxing)
+ .debug_str     0x00001e58       0xd3 output/obj/Usb_dcd.o
+                                0xcc2 (size before relaxing)
+ .debug_str     0x00001f2b      0x3a8 output/obj/Usb_dcd_init.o
+                                0xfbf (size before relaxing)
+ .debug_str     0x000022d3      0x206 output/obj/usbd_core.o
+                                0xe93 (size before relaxing)
+ .debug_str     0x000024d9       0xce output/obj/usbd_ioreq.o
+                                0xc63 (size before relaxing)
+ .debug_str     0x000025a7      0x120 output/obj/usbd_req.o
+                                0xefc (size before relaxing)
+ .debug_str     0x000026c7      0x6b6 output/obj/usbd_ccid_cmd.o
+                               0x127d (size before relaxing)
+ .debug_str     0x00002d7d      0x127 output/obj/usbd_ccid_core.o
+                                0xb62 (size before relaxing)
+ .debug_str     0x00002ea4      0x1ad output/obj/usbd_ccid_if.o
+                               0x1282 (size before relaxing)
+ .debug_str     0x00003051       0x7a output/obj/usb_main.o
+                               0x10c5 (size before relaxing)
+ .debug_str     0x000030cb      0x11c output/obj/usbd_desc.o
+                                0x7f4 (size before relaxing)
+ .debug_str     0x000031e7       0xf5 output/obj/usbd_usr.o
+                                0xc95 (size before relaxing)
+ .debug_str     0x000032dc       0xe5 output/obj/sc_itf.o
+                                0xac5 (size before relaxing)
+ .debug_str     0x000033c1       0x30 output/obj/main.o
+                               0x127e (size before relaxing)
+
+.comment        0x00000000       0x7f
+ .comment       0x00000000       0x7f output/obj/system.o
+                                 0x80 (size before relaxing)
+ .comment       0x0000007f       0x80 output/obj/misc.o
+ .comment       0x0000007f       0x80 output/obj/bt_code.o
+ .comment       0x0000007f       0x80 output/obj/yc_gpio.o
+ .comment       0x0000007f       0x80 output/obj/yc_timer.o
+ .comment       0x0000007f       0x80 output/obj/yc_ipc.o
+ .comment       0x0000007f       0x80 output/obj/yc_uart.o
+ .comment       0x0000007f       0x80 output/obj/yc_lpm.o
+ .comment       0x0000007f       0x80 output/obj/yc_otp.o
+ .comment       0x0000007f       0x80 output/obj/yc_sysctrl.o
+ .comment       0x0000007f       0x80 output/obj/usb_core.o
+ .comment       0x0000007f       0x80 output/obj/Usb_dcd.o
+ .comment       0x0000007f       0x80 output/obj/Usb_dcd_init.o
+ .comment       0x0000007f       0x80 output/obj/usbd_core.o
+ .comment       0x0000007f       0x80 output/obj/usbd_ioreq.o
+ .comment       0x0000007f       0x80 output/obj/usbd_req.o
+ .comment       0x0000007f       0x80 output/obj/usbd_ccid_cmd.o
+ .comment       0x0000007f       0x80 output/obj/usbd_ccid_core.o
+ .comment       0x0000007f       0x80 output/obj/usbd_ccid_if.o
+ .comment       0x0000007f       0x80 output/obj/usb_main.o
+ .comment       0x0000007f       0x80 output/obj/usbd_desc.o
+ .comment       0x0000007f       0x80 output/obj/usbd_usr.o
+ .comment       0x0000007f       0x80 output/obj/sc_itf.o
+ .comment       0x0000007f       0x80 output/obj/main.o
+
+.ARM.attributes
+                0x00000000       0x2d
+ .ARM.attributes
+                0x00000000       0x31 output/obj/system.o
+ .ARM.attributes
+                0x00000031       0x31 output/obj/misc.o
+ .ARM.attributes
+                0x00000062       0x31 output/obj/bt_code.o
+ .ARM.attributes
+                0x00000093       0x31 output/obj/yc_gpio.o
+ .ARM.attributes
+                0x000000c4       0x31 output/obj/yc_timer.o
+ .ARM.attributes
+                0x000000f5       0x31 output/obj/yc_ipc.o
+ .ARM.attributes
+                0x00000126       0x31 output/obj/yc_uart.o
+ .ARM.attributes
+                0x00000157       0x31 output/obj/yc_lpm.o
+ .ARM.attributes
+                0x00000188       0x31 output/obj/yc_otp.o
+ .ARM.attributes
+                0x000001b9       0x31 output/obj/yc_sysctrl.o
+ .ARM.attributes
+                0x000001ea       0x31 output/obj/usb_core.o
+ .ARM.attributes
+                0x0000021b       0x31 output/obj/Usb_dcd.o
+ .ARM.attributes
+                0x0000024c       0x31 output/obj/Usb_dcd_init.o
+ .ARM.attributes
+                0x0000027d       0x31 output/obj/usbd_core.o
+ .ARM.attributes
+                0x000002ae       0x31 output/obj/usbd_ioreq.o
+ .ARM.attributes
+                0x000002df       0x31 output/obj/usbd_req.o
+ .ARM.attributes
+                0x00000310       0x31 output/obj/usbd_ccid_cmd.o
+ .ARM.attributes
+                0x00000341       0x31 output/obj/usbd_ccid_core.o
+ .ARM.attributes
+                0x00000372       0x31 output/obj/usbd_ccid_if.o
+ .ARM.attributes
+                0x000003a3       0x31 output/obj/usb_main.o
+ .ARM.attributes
+                0x000003d4       0x31 output/obj/usbd_desc.o
+ .ARM.attributes
+                0x00000405       0x31 output/obj/usbd_usr.o
+ .ARM.attributes
+                0x00000436       0x31 output/obj/sc_itf.o
+ .ARM.attributes
+                0x00000467       0x31 output/obj/main.o
+ .ARM.attributes
+                0x00000498       0x2c C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x000004c4       0x2c C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000004f0       0x1e C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_thumb1_case_uqi.o)
+ .ARM.attributes
+                0x0000050e       0x1e C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_thumb1_case_uhi.o)
+ .ARM.attributes
+                0x0000052c       0x1e C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000054a       0x1e C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000568       0x1e C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
+
+.debug_frame    0x00000000     0x1588
+ .debug_frame   0x00000000       0x88 output/obj/system.o
+ .debug_frame   0x00000088       0x9c output/obj/misc.o
+ .debug_frame   0x00000124      0x154 output/obj/yc_gpio.o
+ .debug_frame   0x00000278      0x110 output/obj/yc_timer.o
+ .debug_frame   0x00000388      0x184 output/obj/yc_ipc.o
+ .debug_frame   0x0000050c      0x1c0 output/obj/yc_uart.o
+ .debug_frame   0x000006cc      0x138 output/obj/yc_lpm.o
+ .debug_frame   0x00000804       0xa4 output/obj/yc_otp.o
+ .debug_frame   0x000008a8       0x9c output/obj/yc_sysctrl.o
+ .debug_frame   0x00000944      0x13c output/obj/usb_core.o
+ .debug_frame   0x00000a80       0xbc output/obj/Usb_dcd.o
+ .debug_frame   0x00000b3c       0x48 output/obj/Usb_dcd_init.o
+ .debug_frame   0x00000b84      0x178 output/obj/usbd_core.o
+ .debug_frame   0x00000cfc       0xb0 output/obj/usbd_ioreq.o
+ .debug_frame   0x00000dac       0xb0 output/obj/usbd_req.o
+ .debug_frame   0x00000e5c      0x274 output/obj/usbd_ccid_cmd.o
+ .debug_frame   0x000010d0       0xa0 output/obj/usbd_ccid_core.o
+ .debug_frame   0x00001170      0x108 output/obj/usbd_ccid_if.o
+ .debug_frame   0x00001278       0x60 output/obj/usb_main.o
+ .debug_frame   0x000012d8       0xa8 output/obj/usbd_desc.o
+ .debug_frame   0x00001380       0xa8 output/obj/usbd_usr.o
+ .debug_frame   0x00001428       0x78 output/obj/sc_itf.o
+ .debug_frame   0x000014a0       0x48 output/obj/main.o
+ .debug_frame   0x000014e8       0x30 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x00001518       0x30 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memset.o)
+ .debug_frame   0x00001548       0x20 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00001568       0x20 C:/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_divsi3.o)

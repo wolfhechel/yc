@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1616998110</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\demo\Librarier\sdk\yc_timer.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\yc_otp.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\core\type.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_qr\YC_QRDecode_TypeDef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_iic.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\core\system.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_ipc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_kscan.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_qr\YC_QRDecode_lib_IAR.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\user\font.c</file>
+      <file>$PROJ_DIR$\..\..\user\main.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\core\misc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_qr\YC_QRDecode.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_otp.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_lpm.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_spi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\demo\Librarier\sdk\yc_st7789.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_spi.h</file>
+      <file>$PROJ_DIR$\Debug\List\c.log</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_lpm.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\yc_otp.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\core\yc3121.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_sysctrl.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\startup\flash_start_iar.s</file>
+      <file>$PROJ_DIR$\Debug\Obj\font.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\yc_kscan.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_kscan.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\yc_lpm.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\yc_timer.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_exti.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_uart.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_st7789.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_timer.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\font.o</file>
+      <file>$PROJ_DIR$\..\..\user\font.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\yc_kscan.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_iic.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\demo\Librarier\core\rom_api.h</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_ipc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\demo\Librarier\core\misc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\yc_uart.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\demo\Librarier\sdk\yc_qr\YC_QRDecode_TypeDef.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\yc_ipc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\demo\Librarier\sdk\yc_otp.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\demo\Librarier\sdk\yc_sysctrl.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\yc_uart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\yc_gpio.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\flash_start_iar.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\yc_iic.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\demo\Librarier\core\type.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_qspi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\demo\Librarier\sdk\yc_lpm.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\core\misc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\system.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\demo\Librarier\core\yc3121.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\yc_sysctrl.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\core\system.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\c.out</file>
+      <file>$PROJ_DIR$\Debug\Exe\yc3121.hex</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_uart.h</file>
+      <file>$PROJ_DIR$\yc3121.icf</file>
+      <file>$PROJ_DIR$\Debug\Obj\yc3121.pbd</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\demo\Librarier\sdk\yc_ipc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\yc_iic.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\demo\Librarier\sdk\yc_qr\YC_QRDecode.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\demo\Librarier\core\bt_code.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\demo\Librarier\core\system.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\demo\Librarier\sdk\yc_exti.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_sysctrl.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\demo\Librarier\sdk\yc_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\demo\Librarier\sdk\yc_spi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\demo\ModuleDemo\QRDecode\QRDecode_tft_demo\user\font.h</file>
+      <file>$PROJ_DIR$\Debug\List\c.map</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\demo\Librarier\core\board_config.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\yc_lpm.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_timer.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_otp.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\demo\Librarier\sdk\yc_kscan.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\yc_gpio.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\demo\Librarier\sdk\yc_uart.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\misc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_qspi.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\system.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\yc_qspi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\yc_st7789.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_st7789.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\yc_ipc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\yc_sysctrl.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Librarier\core\rom_api.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\yc_st7789.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\yc_spi.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\misc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\yc_spi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\yc_timer.pbi</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_iic.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 68 61 82 51 49 65 71 21 64 81 91 31 35 98 42</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 68 61 82 51 49 65 71 21 64 81 91 31 35 74 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Librarier\core\system.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 49 65 71 21 64 81 91 70 51 31 35 98 68 61 82 42</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48 49 65 71 21 64 81 91 70 51 31 35 98 24 2 107</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_ipc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 68 61 82 51 49 65 71 21 64 81 91 31 35 98 42 92 18 80 45 22 94 84</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 44 68 61 82 51 49 65 71 21 64 81 91 31 35 74 42 92 18 80 45 22 94 84</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_kscan.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 68 61 82 51 49 65 71 21 64 81 91 31 35 98 42 18 92 89 85 83 86</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29 68 61 82 51 49 65 71 21 64 81 91 31 35 74 42 18 92 89 33 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 68 61 82 51 49 65 71 21 64 81 91 31 35 98 42 22 44 92 80 45 94 84</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18 68 61 82 51 49 65 71 21 64 81 91 31 35 74 42 22 44 92 80 45 94 84</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\user\font.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\user\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68 61 82 51 49 65 71 21 64 81 91 31 35 98 42 85 86 17 0 87 89 83 39 96 63 77 80 45 54 55 79 50</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68 61 82 51 49 65 71 21 64 81 91 31 35 98 42 85 86 17 0 39 89 83 96 63 77 80 45 54 55 79 50</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Librarier\core\misc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 99</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 24 2 70 51 49 65 71 21 64 81 91 31 35 98 68 107</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66 24 2 70 51 49 65 71 21 64 81 91 31 35 98 107</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_otp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94 68 61 82 51 49 65 71 21 64 81 91 31 35 98 42</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94 68 61 82 51 49 65 71 21 64 81 91 31 35 74 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_lpm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 68 61 82 51 49 65 71 21 64 81 91 31 35 98 42 44 92 18 80 45 94 84</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 22 68 61 82 51 49 65 71 21 64 81 91 31 35 74 42 44 92 18 80 45 94 84</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19 68 61 82 51 49 65 71 21 64 81 91 31 35 98 42</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 19 68 61 82 51 49 65 71 21 64 81 91 31 35 74 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_sysctrl.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 106</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84 68 61 82 51 49 65 71 21 64 81 91 31 35 98 42</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84 68 61 82 51 49 65 71 21 64 81 91 31 35 74 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Librarier\startup\flash_start_iar.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 59</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74 68 61 82 51 49 65 71 21 64 81 91 31 35 98 42</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74 68 61 82 51 49 65 71 21 64 81 91 31 35 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_st7789.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 85 68 61 82 51 49 65 71 21 64 81 91 31 35 98 42 0 86 87 89 83</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104 85 68 61 82 51 49 65 71 21 64 81 91 31 35 98 42 0 86 87 89 18 33 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 112</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92 68 61 82 51 49 65 71 21 64 81 91 31 35 98 42 18</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 92 68 61 82 51 49 65 71 21 64 81 91 31 35 74 42 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_qspi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 24 2 70 51 49 65 71 21 64 81 91 31 35 74 107 94 66</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 24 2 70 51 49 65 71 21 64 81 91 31 35 74 107 94 66</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\c.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 88 20</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 73</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 75 59 38 93 99 67 97 60 53 28 30 23 8 109 108 106 32 56 43 58 47 52</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 72 88 20</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\..\Librarier\sdk\yc_qspi.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.5\arm\bin\ielfdumparm.exe" .\Debug\Exe\c.out  yc3121.s --code 

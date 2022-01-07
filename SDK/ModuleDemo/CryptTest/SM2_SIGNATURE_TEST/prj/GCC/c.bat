@@ -1,0 +1,3 @@
+cls
+make clean
+make
