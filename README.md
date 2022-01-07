@@ -201,7 +201,25 @@ int main(void)
 本文以demo\uart这个DEMO为例，针对外置串口UART1做演示。
 1.这里使用sscom作为我们演示的串口调试工具，为避免用户在测试过程中的一些疑问，这里先在 sscom界面上设置界面如下
 ![img.png](img.png)
+2.上电复位，串口会打印出
+```c
+Yichip Yc3121 ADC gpio mode Demo V1.0.
+1: ADC GPIO1.2v MODE !
+2: ADC GPIO2.4v MODE !
+```
+如下图所示
+![img_2.png](img_2.png)
+3. 串口发送“1”，即可采集到通道2的ACD值
+```c
+Yichip Yc3121 ADC gpio mode Demo V1.0.
+1: ADC GPIO1.2v MODE !
+2: ADC GPIO2.4v MODE !
+GPIO1.2v test
+testing channel 2
+ADC_Result: 486 mV
+```
 #### 常见问题及故障排查
+
 1. ADC为什么会不准?
 
    答：排查步骤1...;排查步骤2...
