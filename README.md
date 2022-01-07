@@ -187,9 +187,20 @@ int main(void)
 
 ```
 #### 示例
-包含开发板图片1
+**材料准备**
+
+1. YC3121开发板一套。
+2. PC电脑，串口调试工具。
+3. USB线。
+
 ![avatar](https://gitee.com/chenqixiong/yc/raw/master/%E5%9B%BE%E7%89%87/0fb56f709a0255ffafd4990117695bc.jpg)
 如何操作，串口，会有怎么样的输出
+
+**步骤**
+
+本文以demo\uart这个DEMO为例，针对外置串口UART1做演示。
+1.这里使用sscom作为我们演示的串口调试工具，为避免用户在测试过程中的一些疑问，这里先在 sscom界面上设置界面如下
+![img.png](img.png)
 #### 常见问题及故障排查
 1. ADC为什么会不准?
 
