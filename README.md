@@ -119,7 +119,7 @@ else
 4.  新建 Pull Request
 
 
-#### 特技
+### 特技
 
 1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
 2.  Gitee 官方博客 [blog.gitee.com](https://bing.com)
