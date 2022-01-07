@@ -80,7 +80,7 @@ YC3121芯片使用 32bit RISC 内核处理器，集成Bluetooth 5.0 双模蓝牙
 
 ● HVIN （锂电池）ADC 采集电压范围：3-5V
 
-● GPIO（GPIO37-44） ADC 采集电压范围：0-1.2V123
+● GPIO（GPIO37-44） ADC 采集电压范围：0-1.2V
 
 
 
@@ -98,8 +98,7 @@ YC3121芯片使用 32bit RISC 内核处理器，集成Bluetooth 5.0 双模蓝牙
    1. 如何使用80pin开发板，怎么供电？
    2. 怎么下载固件？
    3. 提供操作视频
-      1. WQD
-      2. SDAD
+
 
 ### 软件材料
 1. YC3121 SDK
@@ -110,6 +109,14 @@ YC3121芯片使用 32bit RISC 内核处理器，集成Bluetooth 5.0 双模蓝牙
 1. J-LINK调试工具说明 [链接](https://gitee.com/chenqixiong/yc/blob/master/YC3121MDKJLINKV1.1.pdf)
 2. 固件下载工具 [链接](https://gitee.com/chenqixiong/yc/tree/master/tool)
 
+### 模块设计指南
+#### 开关机
+#### 电源供电
+#### ADC接口
+#### UART接口
+
+
+2. 库接口使用说明手册
 
 ### 参与贡献
 
