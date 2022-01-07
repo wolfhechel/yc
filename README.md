@@ -118,10 +118,16 @@ ADC接口主要用来检测模拟电压信号量，用于电池电压检测，�
 #### 特性
 ADC 有 8 个通道，最高采样率为 3MHz，最高采样精度为 10 比特，AD 的参考电压为 1.2V,校准值写在 OTP 中， 电压范围为 0~1.2V。
 #### 相关硬件接口
-|  表头   | 表头  |
-|  ----  | ----  |
-| 单元格  | 单元格 |
-| 单元格  | 单元格 |
+| ADC通道         | 对应的GPIO |
+|---------------|---------|
+| ADC_CHANNEL_0 | GPIO37  |
+| ADC_CHANNEL_1 | GPIO38  |
+| ADC_CHANNEL_2 | GPIO39  |
+| ADC_CHANNEL_3 | GPIO40  |
+| ADC_CHANNEL_4 | GPIO41  |
+| ADC_CHANNEL_5 | GPIO42  |
+| ADC_CHANNEL_6 | GPIO43  |
+| ADC_CHANNEL_7 | GPIO44  |
 #### ADC接口软件控制
 **ADC使用示例**
 
