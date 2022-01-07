@@ -187,7 +187,7 @@ int main(void)
 
 ```
 #### 示例
-包含开发板图片
+包含开发板图片1
 ![avatar](https://gitee.com/chenqixiong/yc/blob/master/%E5%9B%BE%E7%89%87/0fb56f709a0255ffafd4990117695bc.jpg)
 如何操作，串口，会有怎么样的输出
 #### 常见问题及故障排查
