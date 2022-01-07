@@ -178,6 +178,7 @@ int main(void)
 2. ADC采样时间为什么会很久？
 答：
 #### 相关资料以及购买链接
+[YC3121_ADC_demo](https://gitee.com/chenqixiong/yc/tree/master/SDK/ModuleDemo/ADC)
 
 ### BlueTooth接口
 
