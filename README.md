@@ -113,9 +113,66 @@ YC3121芯片使用 32bit RISC 内核处理器，集成Bluetooth 5.0 双模蓝牙
 
 ### ADC接口
 #### 简介
+ADC(Analog-to-Digital Converter) 指模数转换器。是指将连续变化的模拟信号转换为离散的数字信号的器件。
+ADC接口主要用来检测模拟电压信号量，用于电池电压检测，温湿度检测，TDS检测等应用。
 #### 特性
 #### 参考设计
 #### ADC接口软件控制
+**ADC使用示例**
+
+ADC 的具体使用方式可以参考如下示例代码，示例代码的主要步骤如下：
+1. 打开ADC通道2 和ADC通道3，默认最大量程
+2. 分别起三个循环定时器，每秒读取ADC2和ADC3的值和模块的vbat电压值。
+3. 读取并打印ADC2和ADC3的原始值和电压值和模块的供电电压vbat电压值。
+```
+/* Private typedef -----------------------------------------------------------*/
+/* Private define ------------------------------------------------------------*/
+/* Private macro -------------------------------------------------------------*/
+/* Private variables ---------------------------------------------------------*/
+/* Private function prototypes -----------------------------------------------*/
+void UART_Configuration(void);
+void ADC_Configuration(ADC_ScaleTypeDef scale);
+
+/**
+  * @brief  Main program
+  * @param  None
+  * @retval None
+  */
+int main(void)
+{
+    UART_Configuration();
+
+    MyPrintf("Yichip Yc3121 ADC gpio mode Demo V1.0.\r\n");
+    MyPrintf("1: ADC GPIO1.2v MODE !\n");
+    MyPrintf("2: ADC GPIO2.4v MODE !\n");
+    uint8_t uartretval = 0;
+    while (1)
+    {
+        if(UART_IsRXFIFONotEmpty(UART0))
+        {
+            uartretval =  UART_ReceiveData(UART0);
+            switch (uartretval)
+            {
+            case '1':
+                MyPrintf("GPIO1.2v test\r\n");
+                ADC_Configuration(ADC_Scale_1200Mv);
+                MyPrintf("ADC_Result: %d mV\n", ADC_GetVoltage(ADC_CHANNEL_2));
+                break;
+            case '2':
+                MyPrintf("GPIO2.4v test\r\n");
+                ADC_Configuration(ADC_Scale_2400Mv);
+                MyPrintf("ADC_Result: %d mV\n", ADC_GetVoltage(ADC_CHANNEL_2));
+                break;
+            default:
+                break;
+            }
+            uartretval = 0;
+        }
+    }
+}
+
+
+```
 #### 常见问题及故障排查
 #### 相关资料以及购买链接
 
