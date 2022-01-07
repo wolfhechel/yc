@@ -28,7 +28,7 @@ YC3121芯片使用 32bit RISC 内核处理器，集成Bluetooth 5.0 双模蓝牙
 
 ● frequency band：2400MHz-2483.5MHz
 
-#### _内存_
+### _内存_
 
 ● 64K随机加扰SRAM
 
@@ -36,7 +36,7 @@ YC3121芯片使用 32bit RISC 内核处理器，集成Bluetooth 5.0 双模蓝牙
 
 ● 8KB OTP
 
-#### _安全加密算法加速引擎_
+### _安全加密算法加速引擎_
 
 ● 对称算法：DES、TDES、AES-128/192/256、国密IV（SM4）
 
@@ -44,7 +44,7 @@ YC3121芯片使用 32bit RISC 内核处理器，集成Bluetooth 5.0 双模蓝牙
 
 ● HASH 校验算法 ：SHA-1/224/256/384/512、 国密 III（SM3）
 
-#### _IO接口_
+### _IO接口_
 
 ● 1个ISO7816接口，支持3V、1.8V供电● 2个UART接口
 
@@ -62,7 +62,7 @@ YC3121芯片使用 32bit RISC 内核处理器，集成Bluetooth 5.0 双模蓝牙
 
 ● 1 个 USB接口
 
-#### _内置功能_
+### _内置功能_
 
 ● 1个三轨磁条卡解码模块，支持ISO/ABA、AAMVA及IBM等标准卡
 
@@ -76,7 +76,7 @@ YC3121芯片使用 32bit RISC 内核处理器，集成Bluetooth 5.0 双模蓝牙
 
 ● 1个看门狗模块
 
-#### _10 bit ADC模块_
+### _10 bit ADC模块_
 
 ● HVIN （锂电池）ADC 采集电压范围：3-5V
 
@@ -85,11 +85,11 @@ YC3121芯片使用 32bit RISC 内核处理器，集成Bluetooth 5.0 双模蓝牙
 
 
 
-### 芯片手册
+## 芯片手册
 1. [YC3121芯片简介](https://gitee.com/chenqixiong/yc/blob/master/%E8%8A%AF%E7%89%87%E7%AE%80%E4%BB%8B/YC3121_%E8%8A%AF%E7%89%87%E7%AE%80%E4%BB%8Bv2.3.pdf)
 2. [YC3121芯片数据手册](https://gitee.com/chenqixiong/yc/blob/master/%E8%8A%AF%E7%89%87%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C/YC3121_%E8%8A%AF%E7%89%87%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8Cv1.3.pdf)
 
-### 硬件材料
+## 硬件材料
 1. 56pin开发板原理图及PCB
    1. 如何使用56pin开发板，怎么供电？
    2. 怎么下载固件？
@@ -100,75 +100,75 @@ YC3121芯片使用 32bit RISC 内核处理器，集成Bluetooth 5.0 双模蓝牙
    3. 提供操作视频
 
 
-### 软件材料
+## 软件材料
 1. [YC3121 SDK](https://gitee.com/chenqixiong/yc/tree/master/SDK)
 2. [库接口使用手册](https://gitee.com/chenqixiong/yc/tree/master/%E5%BA%93%E6%8E%A5%E5%8F%A3%E8%AF%B4%E6%98%8E%E6%89%8B%E5%86%8C)
 
 
-### 开发工具
+## 开发工具
 1. J-LINK调试工具说明 [链接](https://gitee.com/chenqixiong/yc/blob/master/YC3121MDKJLINKV1.1.pdf)
 2. 固件下载工具 [链接](https://gitee.com/chenqixiong/yc/tree/master/tool)
 
-### 模块设计指南
+## 模块设计指南
 
-#### ADC接口
-##### 简介
-##### 特性
-##### 参考设计
-##### ADC接口软件控制
-##### 常见问题及故障排查
-##### 相关资料以及购买链接
+### ADC接口
+#### 简介
+#### 特性
+#### 参考设计
+#### ADC接口软件控制
+#### 常见问题及故障排查
+#### 相关资料以及购买链接
 
-#### BlueTooth接口
+### BlueTooth接口
 
-#### BT接口
+### BT接口
 
-#### DMA接口
+### DMA接口
 
-#### EXTI接口
+### EXTI接口
 
-#### FLASH接口
+### FLASH接口
 
-#### GPIO接口
+### GPIO接口
 
-#### IIC接口
+### IIC接口
 
-#### LPM接口
+### LPM接口
 
-#### OTP接口
+### OTP接口
 
-#### ROM BOOT接口
+### ROM BOOT接口
 
-#### RTC接口
+### RTC接口
 
-#### SPI接口
+### SPI接口
 
-#### SSC接口
+### SSC接口
 
-#### SYSCTRL接口
+### SYSCTRL接口
 
-#### SYSTICK接口
+### SYSTICK接口
 
-#### TIMER接口
+### TIMER接口
 
-#### TRNG接口
+### TRNG接口
 
-#### UART接口
+### UART接口
 
-#### USB接口
+### USB接口
 
-#### WDT接口
+### WDT接口
 
-#### 电源模块说明
+### 电源模块说明
 
-#### PWM拓展使用说明
+### PWM拓展使用说明
 
-#### 低功耗测试说明
+### 低功耗测试说明
 
-#### USB&蓝牙OTA说明
+### USB&蓝牙OTA说明
 
 
-### 参与贡献
+## 参与贡献
 
 1.  Fork 本仓库
 2.  新建 Feat_xxx 分支
@@ -176,7 +176,7 @@ YC3121芯片使用 32bit RISC 内核处理器，集成Bluetooth 5.0 双模蓝牙
 4.  新建 Pull Request
 
 
-### 特技
+## 特技
 
 1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
 2.  Gitee 官方博客 [blog.gitee.com](https://bing.com)
