@@ -194,12 +194,14 @@ int main(void)
 3. USB线。
 
 ![avatar](https://gitee.com/chenqixiong/yc/raw/master/%E5%9B%BE%E7%89%87/0fb56f709a0255ffafd4990117695bc.jpg)
-如何操作，串口，会有怎么样的输出
+
+如下图所示连线
+![img_3.png](img_3.png)
 
 **步骤**
 
-本文以demo\uart这个DEMO为例，针对外置串口UART1做演示。
-1.这里使用sscom作为我们演示的串口调试工具，为避免用户在测试过程中的一些疑问，这里先在 sscom界面上设置界面如下
+本文以\SDK\ModuleDemo\ADC\ADC_gpio_mode这个DEMO为例，针对ADC做演示。
+1.这里使用sscom作为我们演示的串口调试工具，为避免用户在测试过程中的一些疑问，这里先在sscom界面上设置界面如下
 ![img.png](img.png)
 2.上电复位，串口会打印出
 ```c
@@ -218,6 +220,8 @@ GPIO1.2v test
 testing channel 2
 ADC_Result: 486 mV
 ```
+如下图所示
+![img_4.png](img_4.png)
 #### 常见问题及故障排查
 
 1. ADC为什么会不准?
