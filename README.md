@@ -76,7 +76,7 @@ YC3121芯片使用 32bit RISC 内核处理器，集成Bluetooth 5.0 双模蓝牙
 
 ● 1个看门狗模块
 
-####_10 bit ADC模块_
+#### _10 bit ADC模块_
 
 ● HVIN （锂电池）ADC 采集电压范围：3-5V
 
