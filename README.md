@@ -90,15 +90,9 @@ YC3121芯片使用 32bit RISC 内核处理器，集成Bluetooth 5.0 双模蓝牙
 1. 56pin开发板原理图及PCB
 2. 80pin开发板原理图及PCB
 
-```c
-if ()
-{
-
-}
-else
-{
-
-}
+```python
+def new():
+    return
 ```
 
 ### 软件材料
