@@ -60,6 +60,8 @@ YC3121芯片使用 32bit RISC 内核处理器，集成Bluetooth 5.0 双模蓝牙
 
 ● 48个GPIO
 
+● 1 个 USB接口
+
 #### _内置功能_
 
 ● 1个三轨磁条卡解码模块，支持ISO/ABA、AAMVA及IBM等标准卡
@@ -71,8 +73,6 @@ YC3121芯片使用 32bit RISC 内核处理器，集成Bluetooth 5.0 双模蓝牙
 ● 1 组内部 Sensor（支持高低电压、高低温、 Mesh、时钟和 voltage glitch 等传感器）
 
 ● 1 块密钥存储区（32 X 32bit 支持硬件快速擦除）
-
-● 1 个 USB接口
 
 ● 1个看门狗模块
 
@@ -87,20 +87,14 @@ YC3121芯片使用 32bit RISC 内核处理器，集成Bluetooth 5.0 双模蓝牙
 2. [YC3121芯片数据手册](https://gitee.com/chenqixiong/yc/blob/master/%E8%8A%AF%E7%89%87%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C/YC3121_%E8%8A%AF%E7%89%87%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8Cv1.3.pdf)
 
 ### 硬件材料
-1. 56pin开发板原理图及PCB
+1. 56pin开发板原理图及PCB,
+   1. 如何使用56pin开发板，怎么供电？
+   2. 怎么下载固件？
+   3. 提供操作视频
 2. 80pin开发板原理图及PCB
-
-```c
-if()
-{
-
-
-}
-else
-{
-
-}
-```
+   1. 如何使用80pin开发板，怎么供电？
+   2. 怎么下载固件？
+   3. 提供操作视频
 
 ### 软件材料
 1. YC3121 SDK
@@ -110,6 +104,7 @@ else
 ### 开发工具
 1. J-LINK调试工具说明 [链接](https://gitee.com/chenqixiong/yc/blob/master/YC3121MDKJLINKV1.1.pdf)
 2. 固件下载工具 [链接](https://gitee.com/chenqixiong/yc/tree/master/tool)
+
 
 ### 参与贡献
 
