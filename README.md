@@ -106,8 +106,8 @@ YC3121芯片使用 32bit RISC 内核处理器，集成Bluetooth 5.0 双模蓝牙
 
 
 ## 开发工具
-1. J-LINK调试工具说明 [链接](https://gitee.com/chenqixiong/yc/blob/master/YC3121MDKJLINKV1.1.pdf)
-2. 固件下载工具 [链接](https://gitee.com/chenqixiong/yc/tree/master/tool)
+1. [J-LINK调试工具说明](https://gitee.com/chenqixiong/yc/blob/master/YC3121MDKJLINKV1.1.pdf)
+2. [固件下载工具](https://gitee.com/chenqixiong/yc/tree/master/tool)
 
 ## 模块设计指南
 
