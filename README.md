@@ -80,7 +80,7 @@ YC3121芯片使用 32bit RISC 内核处理器，集成Bluetooth 5.0 双模蓝牙
 
 ● HVIN （锂电池）ADC 采集电压范围：3-5V
 
-● GPIO（GPIO37-44） ADC 采集电压范围：0-1.2V
+● GPIO（GPIO37-44） ADC 采集电压范围：0-1.2V123
 
 
 
