@@ -203,7 +203,7 @@ int main(void)
 本文以\SDK\ModuleDemo\ADC\ADC_gpio_mode这个DEMO为例，针对ADC做演示。
 1.这里使用sscom作为我们演示的串口调试工具，为避免用户在测试过程中的一些疑问，这里先在sscom界面上设置界面如下
 ![img.png](img.png)
-2.上电复位，串口会打印出
+2.上电复位，串口会打印出如下示的内容，串口发送“1”选择ADC量程0到1.2V，串口发送“2”选择ADC量程0到2.4V
 ```c
 Yichip Yc3121 ADC gpio mode Demo V1.0.
 1: ADC GPIO1.2v MODE !
