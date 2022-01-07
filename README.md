@@ -17,11 +17,11 @@ YC3121芯片使用 32bit RISC 内核处理器，集成Bluetooth 5.0 双模蓝牙
 1. YC3121 SDK
 
 ### 开发工具
-1. xxxx
-2. xxxx
-3. xxxx
 
-# 12345678910111213
+1. J-LINK调试工具<http://www.yichip.com/yc3x>
+2. 固件下载工具
+
+
 #### 参与贡献
 
 1.  Fork 本仓库
