@@ -188,7 +188,7 @@ int main(void)
 ```
 #### 示例
 包含开发板图片
-![Alt text](图片链接 "https://gitee.com/chenqixiong/yc/blob/master/%E5%9B%BE%E7%89%87/%E5%BC%80%E5%8F%91%E6%9D%BF+%E4%B8%B2%E5%8F%A3+USB%E7%BA%BF.png")
+![avatar](http://baidu.com/pic/doge.png)
 如何操作，串口，会有怎么样的输出
 #### 常见问题及故障排查
 1. ADC为什么会不准?
