@@ -7,14 +7,14 @@ YC3121芯片使用 32bit RISC 内核处理器，集成Bluetooth 5.0 双模蓝牙
 适用于金融安全设备、移动安全设备及其他对功耗和成本敏感的安全设备。
 
 ### 硬件材料
-
 1. 56pin开发板原理图及PCB
 2. 80pin开发板原理图及PCB
-
 
 ### 软件材料
 1. YC3121 SDK
 2. 库接口使用说明手册
+
+### 芯片相关手册
 
 ### 开发工具
 1. J-LINK调试工具<https://gitee.com/chenqixiong/yc/blob/master/YC3121MDKJLINK%E9%85%8D%E7%BD%AEV1.1.pdf>
