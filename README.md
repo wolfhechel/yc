@@ -92,12 +92,10 @@ YC3121芯片使用 32bit RISC 内核处理器，集成Bluetooth 5.0 双模蓝牙
 ## 硬件材料
 1. 56pin开发板原理图及PCB
    1. 如何使用56pin开发板，怎么供电？
-   2. 怎么下载固件？
-   3. 提供操作视频
+   2. 提供操作视频
 2. 80pin开发板原理图及PCB
    1. 如何使用80pin开发板，怎么供电？
-   2. 怎么下载固件？
-   3. 提供操作视频
+   2. 提供操作视频
 
 
 ## 软件材料
@@ -108,6 +106,7 @@ YC3121芯片使用 32bit RISC 内核处理器，集成Bluetooth 5.0 双模蓝牙
 ## 开发工具
 1. [J-LINK调试工具说明](https://gitee.com/chenqixiong/yc/blob/master/YC3121MDKJLINKV1.1.pdf)
 2. [固件下载工具](https://gitee.com/chenqixiong/yc/tree/master/tool)
+   1. 提供固件下载操作视频
 
 ## 模块设计指南
 
