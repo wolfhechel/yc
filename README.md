@@ -95,7 +95,7 @@ YC3121芯片使用 32bit RISC 内核处理器，集成Bluetooth 5.0 双模蓝牙
    2. 提供操作视频
 2. 80pin开发板原理图及PCB
    1. 如何使用80pin开发板，怎么供电？
-   2. 提供操作视频
+   2. 提供操作视频 
 
 
 ## 软件材料
@@ -211,7 +211,7 @@ Yichip Yc3121 ADC gpio mode Demo V1.0.
 ```
 如下图所示
 ![img_2.png](img_2.png)
-3. 串口发送“1”，即可采集到通道2的ACD值
+3. 串口发送“1”，即可采集到通道2的ACD值1234546
 ```c
 Yichip Yc3121 ADC gpio mode Demo V1.0.
 1: ADC GPIO1.2v MODE !
